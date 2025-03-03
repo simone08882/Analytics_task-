@@ -1,3 +1,4 @@
+import os
 import random
 import json
 from datetime import datetime, timedelta
@@ -5,7 +6,11 @@ from faker import Faker
 
 fake = Faker()
 
-# Predefined 20 unique user IDs
+folder = "sessions_data"
+
+if not os.path.exists(folder):
+    os.makedirs(folder)
+
 user_ids = [
     "5bde6480-0ab0-43b2-8529-ae22b458f836", "3ba5c0ca-2d1c-4d75-82b7-a2c821f2ea43", "d86a654c-f156-4873-9fec-b758bd53146a",
     "14ec54a1-24e9-462b-9378-3e9d812cba5a", "9b47b488-09f3-4d00-a56c-8c970bdfab8e", "111907fd-95b7-4729-a2af-e51ad656e288",
@@ -15,6 +20,10 @@ user_ids = [
     "f9c7e851-4d89-46ce-8678-25b88916a574", "9ce1bf0b-8366-40e1-b77c-9493a981c91b", "625ea2f3-d6f3-47f0-abd3-a204ea4eb491",
     "3da55713-36de-4077-9d4d-626d934aafe0", "37f86d6c-c234-4339-9c0f-ec3bdaab8536"
 ]
+
+def generate_path_counts():
+    paths = ["/home", "/home/dashboard", "/login", "/home/create", "/profile", "/settings", "/cart", "/checkout"]
+    return {random.choice(paths): random.randint(1, 10) for _ in range(random.randint(3, 6))}
 
 def generate_session(date):
     return {
@@ -29,7 +38,8 @@ def generate_session(date):
         "referrer": fake.url() if random.choice([True, False]) else "",
         "events": {key: random.randint(0, 10) for key in ["loadCount", "visibilitychangeCount", "resizeCount", "focusCount", "clickCount", "blurCount"]},
         "pageLoadTime": {"loadStart": int(date.timestamp() * 1000), "loadEnd": int(date.timestamp() * 1000) + random.randint(1, 1000)},
-        "productId": random.choice(["TRK-89olAsKyNOG7", "TRK-TlxlcwGkl19t", "TRK-Ob2CJVFgaau7"])
+        "productId": random.choice(["TRK-89olAsKyNOG7", "TRK-TlxlcwGkl19t", "TRK-Ob2CJVFgaau7"]),
+        "pathCounts": generate_path_counts()
     }
 
 def generate_past_data(start_date, days=180):
@@ -37,7 +47,7 @@ def generate_past_data(start_date, days=180):
         current_date = start_date + timedelta(days=i)
         sessions = [generate_session(current_date) for _ in range(random.randint(5, 20))]
 
-        filename = current_date.strftime("%B_%d_%Y") + ".json"
+        filename = os.path.join(folder, current_date.strftime("%B_%d_%Y") + ".json")
 
         with open(filename, "w") as file:
             json.dump(sessions, file, indent=4)
