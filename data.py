@@ -5,6 +5,7 @@ from faker import Faker
 
 fake = Faker()
 
+# Predefined 20 unique user IDs
 user_ids = [
     "5bde6480-0ab0-43b2-8529-ae22b458f836", "3ba5c0ca-2d1c-4d75-82b7-a2c821f2ea43", "d86a654c-f156-4873-9fec-b758bd53146a",
     "14ec54a1-24e9-462b-9378-3e9d812cba5a", "9b47b488-09f3-4d00-a56c-8c970bdfab8e", "111907fd-95b7-4729-a2af-e51ad656e288",
@@ -17,8 +18,8 @@ user_ids = [
 
 def generate_session(date):
     return {
-        "start": int(date.timestamp() * 1000),
-        "end": int((date + timedelta(minutes=random.randint(1, 60))).timestamp() * 1000),
+        "start": int(date.timestamp()),
+        "end": int((date + timedelta(minutes=random.randint(1, 60))).timestamp()),
         "bounce": {"isBounced": random.choice([True, False]), "pathname": "/frontend/index.html"},
         "device": random.choice(["Desktop", "Mobile", "Tablet", "Laptop"]),
         "browser": random.choice(["Mozilla", "Chrome", "Safari", "Edge"]),
@@ -30,5 +31,17 @@ def generate_session(date):
         "pageLoadTime": {"loadStart": int(date.timestamp() * 1000), "loadEnd": int(date.timestamp() * 1000) + random.randint(1, 1000)},
         "productId": random.choice(["TRK-89olAsKyNOG7", "TRK-TlxlcwGkl19t", "TRK-Ob2CJVFgaau7"])
     }
-session_data = generate_session(datetime(2025, 3, 3))
-print(json.dumps(session_data, indent=4))
+
+def generate_past_data(start_date, days=180):
+    for i in range(days):
+        current_date = start_date + timedelta(days=i)
+        sessions = [generate_session(current_date) for _ in range(random.randint(5, 20))]
+
+        filename = current_date.strftime("%B_%d_%Y") + ".json"
+
+        with open(filename, "w") as file:
+            json.dump(sessions, file, indent=4)
+
+        print(f"Saved {len(sessions)} sessions to {filename}")
+
+generate_past_data(datetime(2024, 9, 3))
