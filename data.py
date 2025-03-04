@@ -34,6 +34,7 @@ def generate_session(date):
         "browser": random.choice(["Mozilla", "Chrome", "Safari", "Edge"]),
         "location": {"latitude": float(fake.latitude()), "longitude": float(fake.longitude())},
         "uniqueId": random.choice(user_ids),
+        "pathname": random.choice(["/frontend/index.html", "/home", "/dashboard", "/profile", "/settings"]),
         "language": fake.language_code(),
         "referrer": fake.url() if random.choice([True, False]) else "",
         "events": {key: random.randint(0, 10) for key in ["loadCount", "visibilitychangeCount", "resizeCount", "focusCount", "clickCount", "blurCount"]},
@@ -47,7 +48,7 @@ def generate_past_data(start_date, days=180):
         current_date = start_date + timedelta(days=i)
         sessions = [generate_session(current_date) for _ in range(random.randint(5, 20))]
 
-        filename = os.path.join(folder, current_date.strftime("%B_%d_%Y") + ".json")
+        filename = os.path.join(folder, current_date.strftime("%y-%m-%d") + ".json")
 
         with open(filename, "w") as file:
             json.dump(sessions, file, indent=4)
