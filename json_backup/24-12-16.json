@@ -1,406 +1,222 @@
 [
     {
         "start": 1734287400,
-        "end": 1734288540,
+        "end": 1734288360,
         "bounce": {
-            "isBounced": true,
-            "pathname": "/frontend/index.html"
-        },
-        "device": "Mobile",
-        "browser": "Mozilla",
-        "location": {
-            "latitude": -60.3406315,
-            "longitude": -97.526743
-        },
-        "uniqueId": "31b1cad6-43b6-4fa7-95e5-7d79676b01e7",
-        "pathname": "/profile",
-        "language": "nr",
-        "referrer": "https://www.juarez-gregory.com/",
-        "events": {
-            "loadCount": 4,
-            "visibilitychangeCount": 3,
-            "resizeCount": 4,
-            "focusCount": 6,
-            "clickCount": 1,
-            "blurCount": 2
-        },
-        "pageLoadTime": {
-            "loadStart": 1734287400000,
-            "loadEnd": 1734287400931
-        },
-        "productId": "TRK-Ob2CJVFgaau7",
-        "pathCounts": {
-            "/login": 3,
-            "/checkout": 5,
-            "/cart": 2,
-            "/profile": 7,
-            "/home": 1
-        }
-    },
-    {
-        "start": 1734287400,
-        "end": 1734289200,
-        "bounce": {
-            "isBounced": true,
+            "isBounced": false,
             "pathname": "/frontend/index.html"
         },
         "device": "Tablet",
         "browser": "Edge",
         "location": {
-            "latitude": 38.954872,
-            "longitude": 108.640594
+            "latitude": -69.378322,
+            "longitude": 74.73339
         },
-        "uniqueId": "37f86d6c-c234-4339-9c0f-ec3bdaab8536",
-        "pathname": "/home",
-        "language": "mai",
-        "referrer": "",
-        "events": {
-            "loadCount": 2,
-            "visibilitychangeCount": 2,
-            "resizeCount": 7,
-            "focusCount": 3,
-            "clickCount": 3,
-            "blurCount": 4
-        },
-        "pageLoadTime": {
-            "loadStart": 1734287400000,
-            "loadEnd": 1734287400557
-        },
-        "productId": "TRK-89olAsKyNOG7",
-        "pathCounts": {
-            "/login": 4,
-            "/checkout": 1,
-            "/profile": 9
-        }
-    },
-    {
-        "start": 1734287400,
-        "end": 1734289140,
-        "bounce": {
-            "isBounced": true,
-            "pathname": "/frontend/index.html"
-        },
-        "device": "Mobile",
-        "browser": "Edge",
-        "location": {
-            "latitude": -42.1128605,
-            "longitude": -28.156272
-        },
-        "uniqueId": "5bde6480-0ab0-43b2-8529-ae22b458f836",
-        "pathname": "/frontend/index.html",
-        "language": "lt",
-        "referrer": "https://www.evans-marquez.com/",
-        "events": {
-            "loadCount": 0,
-            "visibilitychangeCount": 8,
-            "resizeCount": 4,
-            "focusCount": 4,
-            "clickCount": 1,
-            "blurCount": 2
-        },
-        "pageLoadTime": {
-            "loadStart": 1734287400000,
-            "loadEnd": 1734287400032
-        },
-        "productId": "TRK-89olAsKyNOG7",
-        "pathCounts": {
-            "/home/dashboard": 3,
-            "/settings": 10,
-            "/profile": 2,
-            "/login": 7
-        }
-    },
-    {
-        "start": 1734287400,
-        "end": 1734289080,
-        "bounce": {
-            "isBounced": true,
-            "pathname": "/frontend/index.html"
-        },
-        "device": "Mobile",
-        "browser": "Edge",
-        "location": {
-            "latitude": 32.484202,
-            "longitude": -55.502774
-        },
-        "uniqueId": "ffef8945-c190-4f95-930f-4e35c2e3a868",
-        "pathname": "/frontend/index.html",
-        "language": "is",
-        "referrer": "",
-        "events": {
-            "loadCount": 1,
-            "visibilitychangeCount": 9,
-            "resizeCount": 3,
-            "focusCount": 3,
-            "clickCount": 8,
-            "blurCount": 1
-        },
-        "pageLoadTime": {
-            "loadStart": 1734287400000,
-            "loadEnd": 1734287400283
-        },
-        "productId": "TRK-TlxlcwGkl19t",
-        "pathCounts": {
-            "/profile": 10
-        }
-    },
-    {
-        "start": 1734287400,
-        "end": 1734290820,
-        "bounce": {
-            "isBounced": false,
-            "pathname": "/frontend/index.html"
-        },
-        "device": "Laptop",
-        "browser": "Edge",
-        "location": {
-            "latitude": -33.931041,
-            "longitude": 25.92727
-        },
-        "uniqueId": "d86a654c-f156-4873-9fec-b758bd53146a",
-        "pathname": "/settings",
-        "language": "cv",
-        "referrer": "http://arnold.org/",
-        "events": {
-            "loadCount": 1,
-            "visibilitychangeCount": 4,
-            "resizeCount": 8,
-            "focusCount": 6,
-            "clickCount": 1,
-            "blurCount": 4
-        },
-        "pageLoadTime": {
-            "loadStart": 1734287400000,
-            "loadEnd": 1734287400931
-        },
-        "productId": "TRK-89olAsKyNOG7",
-        "pathCounts": {
-            "/settings": 2,
-            "/home/create": 7,
-            "/login": 8
-        }
-    },
-    {
-        "start": 1734287400,
-        "end": 1734290700,
-        "bounce": {
-            "isBounced": true,
-            "pathname": "/frontend/index.html"
-        },
-        "device": "Laptop",
-        "browser": "Safari",
-        "location": {
-            "latitude": 58.0972025,
-            "longitude": 158.702429
-        },
-        "uniqueId": "f9c7e851-4d89-46ce-8678-25b88916a574",
+        "uniqueId": "31b1cad6-43b6-4fa7-95e5-7d79676b01e7",
         "pathname": "/profile",
-        "language": "ca",
-        "referrer": "",
+        "language": "nl",
+        "referrer": "https://scott-jones.net/",
         "events": {
-            "loadCount": 5,
-            "visibilitychangeCount": 9,
-            "resizeCount": 0,
-            "focusCount": 0,
-            "clickCount": 4,
-            "blurCount": 8
-        },
-        "pageLoadTime": {
-            "loadStart": 1734287400000,
-            "loadEnd": 1734287400279
-        },
-        "productId": "TRK-TlxlcwGkl19t",
-        "pathCounts": {
-            "/home": 1,
-            "/home/create": 5,
-            "/profile": 6,
-            "/cart": 5,
-            "/login": 10
-        }
-    },
-    {
-        "start": 1734287400,
-        "end": 1734290760,
-        "bounce": {
-            "isBounced": false,
-            "pathname": "/frontend/index.html"
-        },
-        "device": "Desktop",
-        "browser": "Chrome",
-        "location": {
-            "latitude": 21.649564,
-            "longitude": -26.959477
-        },
-        "uniqueId": "f25d6d08-ed4a-4680-b7e3-94d4b30207df",
-        "pathname": "/dashboard",
-        "language": "om",
-        "referrer": "https://www.brown.org/",
-        "events": {
-            "loadCount": 0,
-            "visibilitychangeCount": 8,
-            "resizeCount": 0,
-            "focusCount": 9,
-            "clickCount": 1,
+            "loadCount": 8,
+            "visibilitychangeCount": 4,
+            "resizeCount": 1,
+            "focusCount": 8,
+            "clickCount": 5,
             "blurCount": 3
         },
         "pageLoadTime": {
             "loadStart": 1734287400000,
-            "loadEnd": 1734287400941
+            "loadEnd": 1734287400308
         },
-        "productId": "TRK-Ob2CJVFgaau7",
+        "productId": "TRK-89olAsKyNOG7",
         "pathCounts": {
-            "/settings": 1,
-            "/cart": 10,
-            "/login": 7,
-            "/home/dashboard": 6
+            "/login": 6,
+            "/home/create": 9,
+            "/checkout": 9,
+            "/settings": 4,
+            "/home": 9,
+            "/cart": 2
         }
     },
     {
         "start": 1734287400,
-        "end": 1734288660,
+        "end": 1734290160,
         "bounce": {
             "isBounced": true,
             "pathname": "/frontend/index.html"
         },
-        "device": "Desktop",
-        "browser": "Mozilla",
+        "device": "Tablet",
+        "browser": "Chrome",
         "location": {
-            "latitude": 44.9289445,
-            "longitude": -36.226268
+            "latitude": 13.1721135,
+            "longitude": -60.407835
         },
-        "uniqueId": "ca9d1f5f-925b-4a59-b362-4703a75ad77c",
+        "uniqueId": "4f113d91-1e3e-46f7-a9ca-95f02de96297",
         "pathname": "/profile",
-        "language": "id",
+        "language": "bhb",
         "referrer": "",
         "events": {
-            "loadCount": 8,
-            "visibilitychangeCount": 1,
-            "resizeCount": 8,
-            "focusCount": 3,
-            "clickCount": 10,
+            "loadCount": 1,
+            "visibilitychangeCount": 0,
+            "resizeCount": 0,
+            "focusCount": 5,
+            "clickCount": 2,
             "blurCount": 10
         },
         "pageLoadTime": {
             "loadStart": 1734287400000,
-            "loadEnd": 1734287400666
+            "loadEnd": 1734287400084
         },
-        "productId": "TRK-TlxlcwGkl19t",
+        "productId": "TRK-89olAsKyNOG7",
         "pathCounts": {
-            "/checkout": 10,
-            "/profile": 1
+            "/home": 3,
+            "/home/create": 7
         }
     },
     {
         "start": 1734287400,
-        "end": 1734290760,
+        "end": 1734290940,
         "bounce": {
             "isBounced": false,
             "pathname": "/frontend/index.html"
         },
-        "device": "Laptop",
-        "browser": "Chrome",
+        "device": "Tablet",
+        "browser": "Edge",
         "location": {
-            "latitude": -15.737057,
-            "longitude": -90.499907
+            "latitude": -35.821828,
+            "longitude": -148.812437
         },
-        "uniqueId": "14ec54a1-24e9-462b-9378-3e9d812cba5a",
-        "pathname": "/home",
-        "language": "tn",
+        "uniqueId": "aa76de66-83a4-4c21-92f5-cfe20525387a",
+        "pathname": "/settings",
+        "language": "eo",
         "referrer": "",
         "events": {
-            "loadCount": 1,
-            "visibilitychangeCount": 2,
-            "resizeCount": 1,
-            "focusCount": 1,
-            "clickCount": 9,
+            "loadCount": 7,
+            "visibilitychangeCount": 9,
+            "resizeCount": 9,
+            "focusCount": 5,
+            "clickCount": 2,
             "blurCount": 1
         },
         "pageLoadTime": {
             "loadStart": 1734287400000,
-            "loadEnd": 1734287400542
+            "loadEnd": 1734287400772
         },
-        "productId": "TRK-89olAsKyNOG7",
+        "productId": "TRK-TlxlcwGkl19t",
         "pathCounts": {
-            "/home/create": 6,
-            "/profile": 3,
-            "/settings": 7,
-            "/checkout": 3
+            "/home": 9,
+            "/settings": 10
         }
     },
     {
         "start": 1734287400,
-        "end": 1734287640,
+        "end": 1734288780,
         "bounce": {
-            "isBounced": false,
+            "isBounced": true,
+            "pathname": "/frontend/index.html"
+        },
+        "device": "Laptop",
+        "browser": "Mozilla",
+        "location": {
+            "latitude": 15.1802915,
+            "longitude": 63.766407
+        },
+        "uniqueId": "aa76de66-83a4-4c21-92f5-cfe20525387a",
+        "pathname": "/frontend/index.html",
+        "language": "eo",
+        "referrer": "https://www.luna.com/",
+        "events": {
+            "loadCount": 0,
+            "visibilitychangeCount": 3,
+            "resizeCount": 10,
+            "focusCount": 7,
+            "clickCount": 6,
+            "blurCount": 6
+        },
+        "pageLoadTime": {
+            "loadStart": 1734287400000,
+            "loadEnd": 1734287400841
+        },
+        "productId": "TRK-TlxlcwGkl19t",
+        "pathCounts": {
+            "/cart": 7,
+            "/profile": 8,
+            "/home/create": 6,
+            "/home/dashboard": 4
+        }
+    },
+    {
+        "start": 1734287400,
+        "end": 1734290280,
+        "bounce": {
+            "isBounced": true,
             "pathname": "/frontend/index.html"
         },
         "device": "Mobile",
         "browser": "Chrome",
         "location": {
-            "latitude": -29.162204,
-            "longitude": -139.254966
+            "latitude": 78.3453385,
+            "longitude": 117.273701
         },
-        "uniqueId": "3da55713-36de-4077-9d4d-626d934aafe0",
-        "pathname": "/settings",
-        "language": "as",
-        "referrer": "http://www.mcpherson.com/",
+        "uniqueId": "5bde6480-0ab0-43b2-8529-ae22b458f836",
+        "pathname": "/home",
+        "language": "ja",
+        "referrer": "http://www.smith.net/",
         "events": {
-            "loadCount": 2,
-            "visibilitychangeCount": 0,
-            "resizeCount": 8,
-            "focusCount": 2,
-            "clickCount": 4,
-            "blurCount": 4
+            "loadCount": 1,
+            "visibilitychangeCount": 3,
+            "resizeCount": 10,
+            "focusCount": 0,
+            "clickCount": 6,
+            "blurCount": 7
         },
         "pageLoadTime": {
             "loadStart": 1734287400000,
-            "loadEnd": 1734287400865
+            "loadEnd": 1734287400057
         },
-        "productId": "TRK-89olAsKyNOG7",
+        "productId": "TRK-Ob2CJVFgaau7",
         "pathCounts": {
-            "/home/create": 1,
-            "/settings": 4,
-            "/home": 9,
-            "/cart": 5,
-            "/home/dashboard": 2,
-            "/profile": 4
+            "/cart": 6,
+            "/profile": 4,
+            "/login": 9,
+            "/home": 1
         }
     },
     {
         "start": 1734287400,
-        "end": 1734288060,
+        "end": 1734288120,
         "bounce": {
             "isBounced": false,
             "pathname": "/frontend/index.html"
         },
         "device": "Mobile",
-        "browser": "Mozilla",
+        "browser": "Safari",
         "location": {
-            "latitude": 46.9186415,
-            "longitude": 160.777012
+            "latitude": 16.697594,
+            "longitude": 103.647292
         },
-        "uniqueId": "f25d6d08-ed4a-4680-b7e3-94d4b30207df",
-        "pathname": "/frontend/index.html",
-        "language": "yue",
+        "uniqueId": "9ce1bf0b-8366-40e1-b77c-9493a981c91b",
+        "pathname": "/profile",
+        "language": "es",
         "referrer": "",
         "events": {
-            "loadCount": 7,
-            "visibilitychangeCount": 7,
-            "resizeCount": 1,
-            "focusCount": 8,
-            "clickCount": 8,
-            "blurCount": 8
+            "loadCount": 3,
+            "visibilitychangeCount": 0,
+            "resizeCount": 3,
+            "focusCount": 4,
+            "clickCount": 2,
+            "blurCount": 7
         },
         "pageLoadTime": {
             "loadStart": 1734287400000,
-            "loadEnd": 1734287400009
+            "loadEnd": 1734287400685
         },
-        "productId": "TRK-TlxlcwGkl19t",
+        "productId": "TRK-89olAsKyNOG7",
         "pathCounts": {
-            "/home": 7,
-            "/settings": 10,
-            "/profile": 10,
-            "/home/dashboard": 8
+            "/settings": 2,
+            "/home/dashboard": 3,
+            "/home/create": 4,
+            "/cart": 7
         }
     },
     {
@@ -410,216 +226,68 @@
             "isBounced": false,
             "pathname": "/frontend/index.html"
         },
-        "device": "Mobile",
-        "browser": "Safari",
+        "device": "Tablet",
+        "browser": "Edge",
         "location": {
-            "latitude": 84.709952,
-            "longitude": -111.606703
+            "latitude": 21.373812,
+            "longitude": -152.267205
         },
-        "uniqueId": "111907fd-95b7-4729-a2af-e51ad656e288",
-        "pathname": "/profile",
-        "language": "fo",
+        "uniqueId": "9ce1bf0b-8366-40e1-b77c-9493a981c91b",
+        "pathname": "/dashboard",
+        "language": "nb",
         "referrer": "",
         "events": {
-            "loadCount": 9,
+            "loadCount": 5,
             "visibilitychangeCount": 6,
-            "resizeCount": 5,
-            "focusCount": 1,
-            "clickCount": 6,
-            "blurCount": 8
+            "resizeCount": 3,
+            "focusCount": 2,
+            "clickCount": 9,
+            "blurCount": 9
         },
         "pageLoadTime": {
             "loadStart": 1734287400000,
-            "loadEnd": 1734287400562
+            "loadEnd": 1734287400825
         },
         "productId": "TRK-Ob2CJVFgaau7",
         "pathCounts": {
-            "/home": 3,
-            "/login": 7,
-            "/profile": 2
+            "/profile": 9,
+            "/home/create": 10,
+            "/home": 10
         }
     },
     {
         "start": 1734287400,
-        "end": 1734287940,
-        "bounce": {
-            "isBounced": false,
-            "pathname": "/frontend/index.html"
-        },
-        "device": "Mobile",
-        "browser": "Safari",
-        "location": {
-            "latitude": -22.387503,
-            "longitude": -58.005703
-        },
-        "uniqueId": "ca9d1f5f-925b-4a59-b362-4703a75ad77c",
-        "pathname": "/home",
-        "language": "pt",
-        "referrer": "",
-        "events": {
-            "loadCount": 3,
-            "visibilitychangeCount": 8,
-            "resizeCount": 2,
-            "focusCount": 7,
-            "clickCount": 0,
-            "blurCount": 5
-        },
-        "pageLoadTime": {
-            "loadStart": 1734287400000,
-            "loadEnd": 1734287400546
-        },
-        "productId": "TRK-89olAsKyNOG7",
-        "pathCounts": {
-            "/home": 4,
-            "/home/create": 9,
-            "/settings": 1,
-            "/home/dashboard": 8
-        }
-    },
-    {
-        "start": 1734287400,
-        "end": 1734289980,
-        "bounce": {
-            "isBounced": true,
-            "pathname": "/frontend/index.html"
-        },
-        "device": "Laptop",
-        "browser": "Chrome",
-        "location": {
-            "latitude": 70.1912685,
-            "longitude": -148.945847
-        },
-        "uniqueId": "111907fd-95b7-4729-a2af-e51ad656e288",
-        "pathname": "/profile",
-        "language": "ig",
-        "referrer": "",
-        "events": {
-            "loadCount": 3,
-            "visibilitychangeCount": 8,
-            "resizeCount": 0,
-            "focusCount": 0,
-            "clickCount": 8,
-            "blurCount": 5
-        },
-        "pageLoadTime": {
-            "loadStart": 1734287400000,
-            "loadEnd": 1734287400906
-        },
-        "productId": "TRK-89olAsKyNOG7",
-        "pathCounts": {
-            "/settings": 9,
-            "/home": 5,
-            "/cart": 7,
-            "/profile": 1
-        }
-    },
-    {
-        "start": 1734287400,
-        "end": 1734290880,
-        "bounce": {
-            "isBounced": false,
-            "pathname": "/frontend/index.html"
-        },
-        "device": "Tablet",
-        "browser": "Mozilla",
-        "location": {
-            "latitude": -72.3790045,
-            "longitude": 131.845432
-        },
-        "uniqueId": "d86a654c-f156-4873-9fec-b758bd53146a",
-        "pathname": "/frontend/index.html",
-        "language": "wal",
-        "referrer": "https://rodriguez.com/",
-        "events": {
-            "loadCount": 9,
-            "visibilitychangeCount": 2,
-            "resizeCount": 3,
-            "focusCount": 1,
-            "clickCount": 3,
-            "blurCount": 6
-        },
-        "pageLoadTime": {
-            "loadStart": 1734287400000,
-            "loadEnd": 1734287400650
-        },
-        "productId": "TRK-TlxlcwGkl19t",
-        "pathCounts": {
-            "/home": 2,
-            "/profile": 6,
-            "/checkout": 3,
-            "/cart": 10
-        }
-    },
-    {
-        "start": 1734287400,
-        "end": 1734289620,
+        "end": 1734288960,
         "bounce": {
             "isBounced": true,
             "pathname": "/frontend/index.html"
         },
         "device": "Desktop",
-        "browser": "Chrome",
+        "browser": "Safari",
         "location": {
-            "latitude": -4.3683975,
-            "longitude": -63.621266
-        },
-        "uniqueId": "4f113d91-1e3e-46f7-a9ca-95f02de96297",
-        "pathname": "/home",
-        "language": "pl",
-        "referrer": "",
-        "events": {
-            "loadCount": 7,
-            "visibilitychangeCount": 0,
-            "resizeCount": 6,
-            "focusCount": 8,
-            "clickCount": 5,
-            "blurCount": 6
-        },
-        "pageLoadTime": {
-            "loadStart": 1734287400000,
-            "loadEnd": 1734287400407
-        },
-        "productId": "TRK-Ob2CJVFgaau7",
-        "pathCounts": {
-            "/settings": 1,
-            "/login": 6,
-            "/checkout": 5
-        }
-    },
-    {
-        "start": 1734287400,
-        "end": 1734289860,
-        "bounce": {
-            "isBounced": false,
-            "pathname": "/frontend/index.html"
-        },
-        "device": "Mobile",
-        "browser": "Chrome",
-        "location": {
-            "latitude": -33.4790925,
-            "longitude": -124.334287
+            "latitude": 11.428309,
+            "longitude": 138.748893
         },
         "uniqueId": "9ce1bf0b-8366-40e1-b77c-9493a981c91b",
         "pathname": "/dashboard",
-        "language": "lg",
-        "referrer": "https://johnson.com/",
+        "language": "nds",
+        "referrer": "",
         "events": {
-            "loadCount": 9,
-            "visibilitychangeCount": 1,
+            "loadCount": 6,
+            "visibilitychangeCount": 3,
             "resizeCount": 2,
             "focusCount": 8,
-            "clickCount": 10,
+            "clickCount": 9,
             "blurCount": 2
         },
         "pageLoadTime": {
             "loadStart": 1734287400000,
-            "loadEnd": 1734287400320
+            "loadEnd": 1734287400142
         },
-        "productId": "TRK-Ob2CJVFgaau7",
+        "productId": "TRK-89olAsKyNOG7",
         "pathCounts": {
-            "/settings": 5,
-            "/checkout": 6,
-            "/home/create": 9
+            "/settings": 9,
+            "/profile": 8
         }
     }
 ]
