@@ -43,16 +43,31 @@ def generate_session(date):
         "pathCounts": generate_path_counts()
     }
 
-def generate_past_data(start_date, days=180):
+def generate_data(start_date, days=1):
     for i in range(days):
         current_date = start_date + timedelta(days=i)
-        sessions = [generate_session(current_date) for _ in range(random.randint(5, 20))]
-
         filename = os.path.join(folder, current_date.strftime("%y-%m-%d") + ".json")
 
+        # Check if the file already exists (to keep past data)
+        if os.path.exists(filename):
+            with open(filename, "r") as file:
+                existing_data = json.load(file)
+        else:
+            existing_data = []
+
+        new_sessions = [generate_session(current_date) for _ in range(random.randint(5, 20))]
+
+        # Append new data to the existing file
+        updated_data = existing_data + new_sessions
+
         with open(filename, "w") as file:
-            json.dump(sessions, file, indent=4)
+            json.dump(updated_data, file, indent=4)
 
-        print(f"Saved {len(sessions)} sessions to {filename}")
+        print(f"Updated {filename} with {len(new_sessions)} new sessions (Total: {len(updated_data)})")
 
-generate_past_data(datetime(2024, 9, 3))
+# Generate past 6 months of data **only once**
+if not os.listdir(folder):  # Runs only if folder is empty
+    generate_data(datetime.today() - timedelta(days=180), days=180)
+
+# Generate **today's** data (this runs daily)
+generate_data(datetime.today(), days=1)
