@@ -46,7 +46,7 @@ def generate_path_counts(start_time):
         path = random.choice(paths)
         count = random.randint(1, 5)
         durations = [{"start": start_time, "end": start_time} for _ in range(count)]
-        path_counts[path] = [{"count": count, "duration": durations}]
+        path_counts[path] = {"count": count, "duration": durations}
     
     return path_counts
 
