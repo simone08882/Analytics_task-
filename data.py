@@ -2,7 +2,9 @@ import os
 import random
 import json
 from datetime import datetime, timedelta
+from faker import Faker
 
+fake = Faker()
 folder = "sessions_data"
 
 if not os.path.exists(folder):
@@ -18,7 +20,7 @@ user_ids = [
     "3da55713-36de-4077-9d4d-626d934aafe0", "37f86d6c-c234-4339-9c0f-ec3bdaab8536"
 ]
 
-country_locations = [
+locations = [
     {"country": "USA", "latitude": 37.0902, "longitude": -95.7129},
     {"country": "Canada", "latitude": 56.1304, "longitude": -106.3468},
     {"country": "UK", "latitude": 51.5099, "longitude": -0.1181},
@@ -36,12 +38,23 @@ country_locations = [
     {"country": "Mexico", "latitude": 23.6345, "longitude": -102.5528}
 ]
 
-def generate_path_counts():
-    paths = ["/home", "/home/dashboard", "/login", "/home/create", "/profile", "/settings", "/cart", "/checkout"]
-    return {random.choice(paths): random.randint(1, 10) for _ in range(random.randint(3, 6))}
+def generate_path_counts(start_time):
+    paths = ["/home", "/about", "/dashboard", "/profile", "/settings"]
+    path_counts = {}
+    
+    for _ in range(random.randint(3, 6)):
+        path = random.choice(paths)
+        count = random.randint(1, 5)
+        durations = [{"start": start_time, "end": start_time} for _ in range(count)]
+        path_counts[path] = [{"count": count, "duration": durations}]
+    
+    return path_counts
 
 def generate_session(date):
-    location = random.choice(country_locations)  
+    start_time = int(date.timestamp() * 1000)
+    end_time = start_time + random.randint(60000, 3600000)  # 1 min to 1 hour later
+    location = random.choice(locations)  
+
     return {
         "start": int(date.timestamp()),
         "end": int((date + timedelta(minutes=random.randint(1, 60))).timestamp()),
@@ -52,11 +65,12 @@ def generate_session(date):
         "uniqueId": random.choice(user_ids),
         "pathname": random.choice(["/frontend/index.html", "/home", "/dashboard", "/profile", "/settings"]),
         "language": random.choice(["en", "fr", "es", "de", "it", "zh", "ja"]),
-        "referrer": random.choice(["https://google.com", "https://facebook.com", "https://twitter.com", ""]) if random.choice([True, False]) else "",
+        "referrer": random.choice(["Google", "Direct", "Social Media", "Email"]),
         "events": {key: random.randint(0, 10) for key in ["loadCount", "visibilitychangeCount", "resizeCount", "focusCount", "clickCount", "blurCount"]},
-        "pageLoadTime": {"loadStart": int(date.timestamp() * 1000), "loadEnd": int(date.timestamp() * 1000) + random.randint(1, 1000)},
+        "pageLoadTime": {"loadStart": start_time, "loadEnd": start_time + random.randint(1, 1000)},
         "productId": random.choice(["TRK-89olAsKyNOG7", "TRK-TlxlcwGkl19t", "TRK-Ob2CJVFgaau7"]),
-        "pathCounts": generate_path_counts()
+        "pathCounts": generate_path_counts(start_time),
+        "searchTerms": fake.sentence()
     }
 
 def generate_data(start_date, days=1):

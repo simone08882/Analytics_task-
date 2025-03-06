@@ -1,184 +1,443 @@
 [
     {
-        "start": 1728553201,
-        "end": 1728553321,
+        "start": 1728550405,
+        "end": 1728552985,
         "bounce": {
             "isBounced": false,
+            "pathname": "/frontend/index.html"
+        },
+        "device": "Mobile",
+        "browser": "Safari",
+        "location": {
+            "latitude": 35.8617,
+            "longitude": 104.1954,
+            "country": "China"
+        },
+        "uniqueId": "aca50ebd-2a70-41b2-a3f9-1a2deecc8322",
+        "pathname": "/frontend/index.html",
+        "language": "it",
+        "referrer": "Google",
+        "events": {
+            "loadCount": 0,
+            "visibilitychangeCount": 7,
+            "resizeCount": 1,
+            "focusCount": 3,
+            "clickCount": 9,
+            "blurCount": 9
+        },
+        "pageLoadTime": {
+            "loadStart": 1728550405518,
+            "loadEnd": 1728550406458
+        },
+        "productId": "TRK-TlxlcwGkl19t",
+        "pathCounts": {
+            "/profile": [
+                {
+                    "count": 5,
+                    "duration": [
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        },
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        },
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        },
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        },
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        }
+                    ]
+                }
+            ],
+            "/home": [
+                {
+                    "count": 3,
+                    "duration": [
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        },
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        },
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        }
+                    ]
+                }
+            ],
+            "/about": [
+                {
+                    "count": 2,
+                    "duration": [
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        },
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        }
+                    ]
+                }
+            ]
+        },
+        "searchTerms": "Over international special yes trip place rise phone."
+    },
+    {
+        "start": 1728550405,
+        "end": 1728553465,
+        "bounce": {
+            "isBounced": true,
             "pathname": "/frontend/index.html"
         },
         "device": "Desktop",
         "browser": "Mozilla",
         "location": {
-            "latitude": -81.2262175,
-            "longitude": 157.802506
+            "latitude": 51.5099,
+            "longitude": -0.1181,
+            "country": "UK"
         },
-        "uniqueId": "f9c7e851-4d89-46ce-8678-25b88916a574",
-        "pathname": "/home",
-        "language": "doi",
-        "referrer": "",
+        "uniqueId": "d86a654c-f156-4873-9fec-b758bd53146a",
+        "pathname": "/frontend/index.html",
+        "language": "ja",
+        "referrer": "Email",
         "events": {
-            "loadCount": 0,
-            "visibilitychangeCount": 9,
-            "resizeCount": 10,
-            "focusCount": 1,
-            "clickCount": 5,
+            "loadCount": 3,
+            "visibilitychangeCount": 0,
+            "resizeCount": 0,
+            "focusCount": 8,
+            "clickCount": 7,
             "blurCount": 4
         },
         "pageLoadTime": {
-            "loadStart": 1728553201694,
-            "loadEnd": 1728553202014
+            "loadStart": 1728550405518,
+            "loadEnd": 1728550406361
         },
-        "productId": "TRK-89olAsKyNOG7",
+        "productId": "TRK-Ob2CJVFgaau7",
         "pathCounts": {
-            "/checkout": 3,
-            "/profile": 1,
-            "/home/create": 6
-        }
+            "/home": [
+                {
+                    "count": 5,
+                    "duration": [
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        },
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        },
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        },
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        },
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        }
+                    ]
+                }
+            ],
+            "/dashboard": [
+                {
+                    "count": 5,
+                    "duration": [
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        },
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        },
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        },
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        },
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        }
+                    ]
+                }
+            ],
+            "/profile": [
+                {
+                    "count": 3,
+                    "duration": [
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        },
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        },
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        }
+                    ]
+                }
+            ]
+        },
+        "searchTerms": "Appear experience outside accept hard."
     },
     {
-        "start": 1728553201,
-        "end": 1728553261,
+        "start": 1728550405,
+        "end": 1728552805,
         "bounce": {
-            "isBounced": false,
+            "isBounced": true,
             "pathname": "/frontend/index.html"
         },
-        "device": "Mobile",
-        "browser": "Safari",
+        "device": "Tablet",
+        "browser": "Chrome",
         "location": {
-            "latitude": -21.210444,
-            "longitude": -55.698438
+            "latitude": -25.2744,
+            "longitude": 133.7751,
+            "country": "Australia"
         },
-        "uniqueId": "3ba5c0ca-2d1c-4d75-82b7-a2c821f2ea43",
+        "uniqueId": "14ec54a1-24e9-462b-9378-3e9d812cba5a",
         "pathname": "/profile",
-        "language": "ka",
-        "referrer": "",
+        "language": "it",
+        "referrer": "Social Media",
         "events": {
-            "loadCount": 4,
-            "visibilitychangeCount": 2,
-            "resizeCount": 0,
-            "focusCount": 7,
-            "clickCount": 5,
-            "blurCount": 7
+            "loadCount": 0,
+            "visibilitychangeCount": 8,
+            "resizeCount": 10,
+            "focusCount": 10,
+            "clickCount": 0,
+            "blurCount": 5
         },
         "pageLoadTime": {
-            "loadStart": 1728553201694,
-            "loadEnd": 1728553201721
+            "loadStart": 1728550405518,
+            "loadEnd": 1728550405664
         },
         "productId": "TRK-TlxlcwGkl19t",
         "pathCounts": {
-            "/checkout": 2,
-            "/home": 5,
-            "/settings": 3
-        }
+            "/settings": [
+                {
+                    "count": 1,
+                    "duration": [
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        }
+                    ]
+                }
+            ],
+            "/profile": [
+                {
+                    "count": 1,
+                    "duration": [
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        }
+                    ]
+                }
+            ],
+            "/about": [
+                {
+                    "count": 4,
+                    "duration": [
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        },
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        },
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        },
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        }
+                    ]
+                }
+            ]
+        },
+        "searchTerms": "Reach day interesting skill conference near figure."
     },
     {
-        "start": 1728553201,
-        "end": 1728556381,
+        "start": 1728550405,
+        "end": 1728551305,
         "bounce": {
-            "isBounced": true,
+            "isBounced": false,
             "pathname": "/frontend/index.html"
         },
         "device": "Desktop",
-        "browser": "Safari",
-        "location": {
-            "latitude": -78.193518,
-            "longitude": -22.225481
-        },
-        "uniqueId": "5bde6480-0ab0-43b2-8529-ae22b458f836",
-        "pathname": "/dashboard",
-        "language": "nan",
-        "referrer": "",
-        "events": {
-            "loadCount": 0,
-            "visibilitychangeCount": 0,
-            "resizeCount": 5,
-            "focusCount": 2,
-            "clickCount": 8,
-            "blurCount": 4
-        },
-        "pageLoadTime": {
-            "loadStart": 1728553201694,
-            "loadEnd": 1728553201934
-        },
-        "productId": "TRK-TlxlcwGkl19t",
-        "pathCounts": {
-            "/checkout": 4,
-            "/home": 9,
-            "/home/dashboard": 2,
-            "/home/create": 1
-        }
-    },
-    {
-        "start": 1728553201,
-        "end": 1728555181,
-        "bounce": {
-            "isBounced": true,
-            "pathname": "/frontend/index.html"
-        },
-        "device": "Laptop",
         "browser": "Edge",
         "location": {
-            "latitude": -43.1166755,
-            "longitude": 126.734031
+            "latitude": -25.2744,
+            "longitude": 133.7751,
+            "country": "Australia"
         },
-        "uniqueId": "77f0712b-554f-4c5c-9898-14e7c77b26a0",
-        "pathname": "/settings",
-        "language": "hy",
-        "referrer": "http://www.huang.com/",
+        "uniqueId": "f9c7e851-4d89-46ce-8678-25b88916a574",
+        "pathname": "/dashboard",
+        "language": "it",
+        "referrer": "Email",
         "events": {
-            "loadCount": 9,
-            "visibilitychangeCount": 2,
-            "resizeCount": 0,
-            "focusCount": 3,
-            "clickCount": 6,
-            "blurCount": 0
+            "loadCount": 7,
+            "visibilitychangeCount": 7,
+            "resizeCount": 5,
+            "focusCount": 6,
+            "clickCount": 8,
+            "blurCount": 1
         },
         "pageLoadTime": {
-            "loadStart": 1728553201694,
-            "loadEnd": 1728553202410
+            "loadStart": 1728550405518,
+            "loadEnd": 1728550405701
         },
-        "productId": "TRK-TlxlcwGkl19t",
+        "productId": "TRK-Ob2CJVFgaau7",
         "pathCounts": {
-            "/settings": 9,
-            "/home": 5,
-            "/cart": 8,
-            "/login": 8,
-            "/checkout": 10
-        }
+            "/settings": [
+                {
+                    "count": 3,
+                    "duration": [
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        },
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        },
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        }
+                    ]
+                }
+            ],
+            "/about": [
+                {
+                    "count": 1,
+                    "duration": [
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        }
+                    ]
+                }
+            ]
+        },
+        "searchTerms": "According box event international."
     },
     {
-        "start": 1728553201,
-        "end": 1728556141,
+        "start": 1728550405,
+        "end": 1728551605,
         "bounce": {
             "isBounced": false,
             "pathname": "/frontend/index.html"
         },
-        "device": "Mobile",
-        "browser": "Edge",
+        "device": "Laptop",
+        "browser": "Safari",
         "location": {
-            "latitude": -29.951495,
-            "longitude": -7.485124
+            "latitude": 61.524,
+            "longitude": 105.3188,
+            "country": "Russia"
         },
-        "uniqueId": "9b47b488-09f3-4d00-a56c-8c970bdfab8e",
+        "uniqueId": "ca9d1f5f-925b-4a59-b362-4703a75ad77c",
         "pathname": "/profile",
-        "language": "tn",
-        "referrer": "https://flores.com/",
+        "language": "es",
+        "referrer": "Direct",
         "events": {
-            "loadCount": 10,
-            "visibilitychangeCount": 2,
-            "resizeCount": 2,
-            "focusCount": 5,
+            "loadCount": 0,
+            "visibilitychangeCount": 7,
+            "resizeCount": 3,
+            "focusCount": 6,
             "clickCount": 4,
             "blurCount": 5
         },
         "pageLoadTime": {
-            "loadStart": 1728553201694,
-            "loadEnd": 1728553202209
+            "loadStart": 1728550405518,
+            "loadEnd": 1728550406114
         },
         "productId": "TRK-89olAsKyNOG7",
         "pathCounts": {
-            "/settings": 5,
-            "/checkout": 6
-        }
+            "/about": [
+                {
+                    "count": 2,
+                    "duration": [
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        },
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        }
+                    ]
+                }
+            ],
+            "/settings": [
+                {
+                    "count": 4,
+                    "duration": [
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        },
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        },
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        },
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        }
+                    ]
+                }
+            ],
+            "/profile": [
+                {
+                    "count": 3,
+                    "duration": [
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        },
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        },
+                        {
+                            "start": 1728550405518,
+                            "end": 1728550405518
+                        }
+                    ]
+                }
+            ]
+        },
+        "searchTerms": "Manage any worker physical him he different piece."
     }
 ]
