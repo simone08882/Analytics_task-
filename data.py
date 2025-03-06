@@ -2,9 +2,6 @@ import os
 import random
 import json
 from datetime import datetime, timedelta
-from faker import Faker
-
-fake = Faker()
 
 folder = "sessions_data"
 
@@ -21,22 +18,41 @@ user_ids = [
     "3da55713-36de-4077-9d4d-626d934aafe0", "37f86d6c-c234-4339-9c0f-ec3bdaab8536"
 ]
 
+country_locations = [
+    {"country": "USA", "latitude": 37.0902, "longitude": -95.7129},
+    {"country": "Canada", "latitude": 56.1304, "longitude": -106.3468},
+    {"country": "UK", "latitude": 51.5099, "longitude": -0.1181},
+    {"country": "Germany", "latitude": 51.1657, "longitude": 10.4515},
+    {"country": "France", "latitude": 48.8566, "longitude": 2.3522},
+    {"country": "Italy", "latitude": 41.9028, "longitude": 12.4964},
+    {"country": "Spain", "latitude": 40.4168, "longitude": -3.7038},
+    {"country": "Australia", "latitude": -25.2744, "longitude": 133.7751},
+    {"country": "Brazil", "latitude": -14.2350, "longitude": -51.9253},
+    {"country": "India", "latitude": 20.5937, "longitude": 78.9629},
+    {"country": "China", "latitude": 35.8617, "longitude": 104.1954},
+    {"country": "Japan", "latitude": 36.2048, "longitude": 138.2529},
+    {"country": "South Africa", "latitude": -30.5595, "longitude": 22.9375},
+    {"country": "Russia", "latitude": 61.5240, "longitude": 105.3188},
+    {"country": "Mexico", "latitude": 23.6345, "longitude": -102.5528}
+]
+
 def generate_path_counts():
     paths = ["/home", "/home/dashboard", "/login", "/home/create", "/profile", "/settings", "/cart", "/checkout"]
     return {random.choice(paths): random.randint(1, 10) for _ in range(random.randint(3, 6))}
 
 def generate_session(date):
+    location = random.choice(country_locations)  
     return {
         "start": int(date.timestamp()),
         "end": int((date + timedelta(minutes=random.randint(1, 60))).timestamp()),
         "bounce": {"isBounced": random.choice([True, False]), "pathname": "/frontend/index.html"},
         "device": random.choice(["Desktop", "Mobile", "Tablet", "Laptop"]),
         "browser": random.choice(["Mozilla", "Chrome", "Safari", "Edge"]),
-        "location": {"latitude": float(fake.latitude()), "longitude": float(fake.longitude())},
+        "location": {"latitude": location["latitude"], "longitude": location["longitude"], "country": location["country"]},
         "uniqueId": random.choice(user_ids),
         "pathname": random.choice(["/frontend/index.html", "/home", "/dashboard", "/profile", "/settings"]),
-        "language": fake.language_code(),
-        "referrer": fake.url() if random.choice([True, False]) else "",
+        "language": random.choice(["en", "fr", "es", "de", "it", "zh", "ja"]),
+        "referrer": random.choice(["https://google.com", "https://facebook.com", "https://twitter.com", ""]) if random.choice([True, False]) else "",
         "events": {key: random.randint(0, 10) for key in ["loadCount", "visibilitychangeCount", "resizeCount", "focusCount", "clickCount", "blurCount"]},
         "pageLoadTime": {"loadStart": int(date.timestamp() * 1000), "loadEnd": int(date.timestamp() * 1000) + random.randint(1, 1000)},
         "productId": random.choice(["TRK-89olAsKyNOG7", "TRK-TlxlcwGkl19t", "TRK-Ob2CJVFgaau7"]),
@@ -48,26 +64,19 @@ def generate_data(start_date, days=1):
         current_date = start_date + timedelta(days=i)
         filename = os.path.join(folder, current_date.strftime("%y-%m-%d") + ".json")
 
-        # Check if the file already exists (to keep past data)
+        existing_data = []
         if os.path.exists(filename):
             with open(filename, "r") as file:
                 existing_data = json.load(file)
-        else:
-            existing_data = []
 
         new_sessions = [generate_session(current_date) for _ in range(random.randint(5, 20))]
 
-        # Append new data to the existing file
-        updated_data = existing_data + new_sessions
-
         with open(filename, "w") as file:
-            json.dump(updated_data, file, indent=4)
+            json.dump(existing_data + new_sessions, file, indent=4)
 
-        print(f"Updated {filename} with {len(new_sessions)} new sessions (Total: {len(updated_data)})")
+        print(f"Updated {filename} with {len(new_sessions)} new sessions (Total: {len(existing_data) + len(new_sessions)})")
 
-# Generate past 6 months of data **only once**
-if not os.listdir(folder):  # Runs only if folder is empty
+if not os.listdir(folder): 
     generate_data(datetime.today() - timedelta(days=180), days=180)
 
-# Generate **today's** data (this runs daily)
 generate_data(datetime.today(), days=1)
