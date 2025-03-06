@@ -94,8 +94,7 @@ def generate_data(start_date, days=1):
         print(f"Updated {filename} with {len(new_sessions)} new sessions (Total: {len(existing_data) + len(new_sessions)})")
         print(f"Updated {filename} with {len(new_sessions)} new sessions (Total: {len(existing_data) + len(new_sessions)})")
 
-if not os.listdir(folder): 
-if not os.listdir(folder): 
-    generate_data(datetime.today() - timedelta(days=180), days=180)
+    if not os.listdir(folder): 
+        generate_data(datetime.today() - timedelta(days=180), days=180)
 
 generate_data(datetime.today(), days=1)
