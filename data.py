@@ -62,7 +62,6 @@ def generate_session(date):
         "device": random.choice(["Desktop", "Mobile", "Tablet", "Laptop"]),
         "browser": random.choice(["Mozilla", "Chrome", "Safari", "Edge"]),
         "location": {"latitude": location["latitude"], "longitude": location["longitude"], "country": location["country"]},
-        "location": {"latitude": location["latitude"], "longitude": location["longitude"], "country": location["country"]},
         "uniqueId": random.choice(user_ids),
         "pathname": random.choice(["/frontend/index.html", "/home", "/dashboard", "/profile", "/settings"]),
         "language": random.choice(["en", "fr", "es", "de", "it", "zh", "ja"]),
@@ -73,28 +72,28 @@ def generate_session(date):
         "pathCounts": generate_path_counts(start_time),
         "searchTerms": fake.sentence()
     }
-
 def generate_data(start_date, days=1):
     for i in range(days):
         current_date = start_date + timedelta(days=i)
         filename = os.path.join(folder, current_date.strftime("%y-%m-%d") + ".json")
 
         existing_data = []
-        existing_data = []
         if os.path.exists(filename):
             with open(filename, "r") as file:
-                existing_data = json.load(file)
+                try:
+                    existing_data = json.load(file)
+                except json.JSONDecodeError:
+                    print(f"Warning: Could not read JSON from {filename}. Resetting file.")
 
-        new_sessions = [generate_session(current_date) for _ in range(random.randint(5, 20))]
+        session_count = random.randint(5, 20)  # Ensure at least 5 sessions
+        new_sessions = [generate_session(current_date) for _ in range(session_count)]
 
         with open(filename, "w") as file:
             json.dump(existing_data + new_sessions, file, indent=4)
-            json.dump(existing_data + new_sessions, file, indent=4)
 
-        print(f"Updated {filename} with {len(new_sessions)} new sessions (Total: {len(existing_data) + len(new_sessions)})")
-        print(f"Updated {filename} with {len(new_sessions)} new sessions (Total: {len(existing_data) + len(new_sessions)})")
+        print(f"Updated {filename} with {session_count} new sessions (Total: {len(existing_data) + session_count})")
 
-    if not os.listdir(folder): 
-        generate_data(datetime.today() - timedelta(days=180), days=180)
+if not os.listdir(folder): 
+    generate_data(datetime.today() - timedelta(days=180), days=180)
 
 generate_data(datetime.today(), days=1)
