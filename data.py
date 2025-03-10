@@ -57,13 +57,21 @@ def generate_path_counts(start_time):
     return path_counts
 
 def generate_session(date):
-    start_time = int(date.timestamp() * 1000)
-    end_time = start_time + random.randint(60000, 3600000)  # 1 min to 1 hour later
+    random_hour = random.randint(0, 23)
+    random_minute = random.randint(0, 59)
+    random_second = random.randint(0, 59)
+
+    start_datetime = datetime(date.year, date.month, date.day, random_hour, random_minute, random_second)
+    
+    start_time = int(start_datetime.timestamp() * 1000)
+
+    end_time = start_time + random.randint(600000, 21600000)  
+
     location = random.choice(locations)  
 
     return {
-        "start": int(date.timestamp()),
-        "end": int((date + timedelta(minutes=random.randint(1, 60))).timestamp()),
+        "start": start_time,
+        "end": end_time,
         "bounce": {"isBounced": random.choice([True, False]), "pathname": "/frontend/index.html"},
         "device": random.choice(["Desktop", "Mobile", "Tablet", "Laptop"]),
         "browser": random.choice(["Mozilla", "Chrome", "Safari", "Edge"]),

@@ -1,80 +1,756 @@
 [
     {
-        "start": 1732768136,
-        "end": 1732769096,
+        "start": 1732753846000,
+        "end": 1732775047612,
         "bounce": {
-            "isBounced": false,
+            "isBounced": true,
             "pathname": "/frontend/index.html"
         },
-        "device": "Tablet",
+        "device": "Laptop",
         "browser": "Mozilla",
+        "location": {
+            "latitude": 51.1657,
+            "longitude": 10.4515,
+            "country": "Germany"
+        },
+        "uniqueId": "ffef8945-c190-4f95-930f-4e35c2e3a868",
+        "pathname": "/home",
+        "language": "es",
+        "referrer": "Social Media",
+        "events": {
+            "loadCount": 0,
+            "visibilitychangeCount": 0,
+            "resizeCount": 1,
+            "focusCount": 5,
+            "clickCount": 1,
+            "blurCount": 3
+        },
+        "pageLoadTime": {
+            "loadStart": 1732753846000,
+            "loadEnd": 1732753846568
+        },
+        "productId": "TRK-89olAsKyNOG7",
+        "pathCounts": {
+            "/profile": [
+                {
+                    "count": 3,
+                    "duration": [
+                        {
+                            "start": 1732753908114,
+                            "end": 1732754143289
+                        },
+                        {
+                            "start": 1732753854821,
+                            "end": 1732754010000
+                        },
+                        {
+                            "start": 1732753903487,
+                            "end": 1732753918543
+                        }
+                    ]
+                }
+            ],
+            "/about": [
+                {
+                    "count": 5,
+                    "duration": [
+                        {
+                            "start": 1732753930034,
+                            "end": 1732754063143
+                        },
+                        {
+                            "start": 1732753866799,
+                            "end": 1732753947333
+                        },
+                        {
+                            "start": 1732753932605,
+                            "end": 1732753981380
+                        },
+                        {
+                            "start": 1732753855189,
+                            "end": 1732753933837
+                        },
+                        {
+                            "start": 1732753910605,
+                            "end": 1732754009126
+                        }
+                    ]
+                }
+            ],
+            "/settings": [
+                {
+                    "count": 2,
+                    "duration": [
+                        {
+                            "start": 1732753913555,
+                            "end": 1732754177252
+                        },
+                        {
+                            "start": 1732753880545,
+                            "end": 1732754106178
+                        }
+                    ]
+                }
+            ]
+        },
+        "searchTerms": "Great audience travel."
+    },
+    {
+        "start": 1732753214000,
+        "end": 1732759056793,
+        "bounce": {
+            "isBounced": true,
+            "pathname": "/frontend/index.html"
+        },
+        "device": "Laptop",
+        "browser": "Chrome",
         "location": {
             "latitude": -25.2744,
             "longitude": 133.7751,
             "country": "Australia"
         },
-        "uniqueId": "aa76de66-83a4-4c21-92f5-cfe20525387a",
-        "pathname": "/profile",
+        "uniqueId": "14ec54a1-24e9-462b-9378-3e9d812cba5a",
+        "pathname": "/dashboard",
         "language": "es",
-        "referrer": "Direct",
+        "referrer": "Google",
         "events": {
-            "loadCount": 6,
-            "visibilitychangeCount": 6,
-            "resizeCount": 5,
+            "loadCount": 3,
+            "visibilitychangeCount": 0,
+            "resizeCount": 9,
             "focusCount": 2,
             "clickCount": 6,
-            "blurCount": 9
+            "blurCount": 8
         },
         "pageLoadTime": {
-            "loadStart": 1732768136151,
-            "loadEnd": 1732768137080
+            "loadStart": 1732753214000,
+            "loadEnd": 1732753214311
         },
-        "productId": "TRK-Ob2CJVFgaau7",
+        "productId": "TRK-TlxlcwGkl19t",
         "pathCounts": {
-            "/dashboard": [
+            "/profile": [
                 {
                     "count": 5,
                     "duration": [
                         {
-                            "start": 1732768206850,
-                            "end": 1732768490208
+                            "start": 1732753225558,
+                            "end": 1732753299917
                         },
                         {
-                            "start": 1732768179870,
-                            "end": 1732768354230
+                            "start": 1732753249164,
+                            "end": 1732753253304
                         },
                         {
-                            "start": 1732768176983,
-                            "end": 1732768326720
+                            "start": 1732753241258,
+                            "end": 1732753397476
                         },
                         {
-                            "start": 1732768189253,
-                            "end": 1732768376097
+                            "start": 1732753232813,
+                            "end": 1732753274525
                         },
                         {
-                            "start": 1732768196593,
-                            "end": 1732768338050
+                            "start": 1732753244049,
+                            "end": 1732753509130
                         }
                     ]
                 }
             ],
             "/home": [
                 {
-                    "count": 1,
+                    "count": 2,
                     "duration": [
                         {
-                            "start": 1732768228680,
-                            "end": 1732768402336
+                            "start": 1732753298340,
+                            "end": 1732753363567
+                        },
+                        {
+                            "start": 1732753296406,
+                            "end": 1732753417736
+                        }
+                    ]
+                }
+            ],
+            "/about": [
+                {
+                    "count": 5,
+                    "duration": [
+                        {
+                            "start": 1732753250899,
+                            "end": 1732753438645
+                        },
+                        {
+                            "start": 1732753302257,
+                            "end": 1732753431042
+                        },
+                        {
+                            "start": 1732753220460,
+                            "end": 1732753281428
+                        },
+                        {
+                            "start": 1732753221396,
+                            "end": 1732753507508
+                        },
+                        {
+                            "start": 1732753280489,
+                            "end": 1732753571553
                         }
                     ]
                 }
             ]
         },
-        "searchTerms": "Visit play last."
+        "searchTerms": "Protect society million brother campaign."
     },
     {
-        "start": 1732768136,
-        "end": 1732769036,
+        "start": 1732775092000,
+        "end": 1732786169147,
+        "bounce": {
+            "isBounced": true,
+            "pathname": "/frontend/index.html"
+        },
+        "device": "Laptop",
+        "browser": "Safari",
+        "location": {
+            "latitude": 40.4168,
+            "longitude": -3.7038,
+            "country": "Spain"
+        },
+        "uniqueId": "ca9d1f5f-925b-4a59-b362-4703a75ad77c",
+        "pathname": "/settings",
+        "language": "it",
+        "referrer": "Social Media",
+        "events": {
+            "loadCount": 5,
+            "visibilitychangeCount": 2,
+            "resizeCount": 8,
+            "focusCount": 1,
+            "clickCount": 6,
+            "blurCount": 1
+        },
+        "pageLoadTime": {
+            "loadStart": 1732775092000,
+            "loadEnd": 1732775092466
+        },
+        "productId": "TRK-Ob2CJVFgaau7",
+        "pathCounts": {
+            "/home": [
+                {
+                    "count": 1,
+                    "duration": [
+                        {
+                            "start": 1732775145133,
+                            "end": 1732775181240
+                        }
+                    ]
+                }
+            ],
+            "/settings": [
+                {
+                    "count": 5,
+                    "duration": [
+                        {
+                            "start": 1732775127012,
+                            "end": 1732775215181
+                        },
+                        {
+                            "start": 1732775145131,
+                            "end": 1732775225859
+                        },
+                        {
+                            "start": 1732775106840,
+                            "end": 1732775307737
+                        },
+                        {
+                            "start": 1732775187021,
+                            "end": 1732775264140
+                        },
+                        {
+                            "start": 1732775114117,
+                            "end": 1732775246610
+                        }
+                    ]
+                }
+            ],
+            "/about": [
+                {
+                    "count": 4,
+                    "duration": [
+                        {
+                            "start": 1732775111344,
+                            "end": 1732775372031
+                        },
+                        {
+                            "start": 1732775165665,
+                            "end": 1732775306420
+                        },
+                        {
+                            "start": 1732775133160,
+                            "end": 1732775343647
+                        },
+                        {
+                            "start": 1732775132878,
+                            "end": 1732775297830
+                        }
+                    ]
+                }
+            ]
+        },
+        "searchTerms": "Put travel indeed side into."
+    },
+    {
+        "start": 1732749465000,
+        "end": 1732763227624,
+        "bounce": {
+            "isBounced": true,
+            "pathname": "/frontend/index.html"
+        },
+        "device": "Desktop",
+        "browser": "Chrome",
+        "location": {
+            "latitude": 48.8566,
+            "longitude": 2.3522,
+            "country": "France"
+        },
+        "uniqueId": "111907fd-95b7-4729-a2af-e51ad656e288",
+        "pathname": "/profile",
+        "language": "it",
+        "referrer": "Google",
+        "events": {
+            "loadCount": 7,
+            "visibilitychangeCount": 1,
+            "resizeCount": 7,
+            "focusCount": 4,
+            "clickCount": 1,
+            "blurCount": 7
+        },
+        "pageLoadTime": {
+            "loadStart": 1732749465000,
+            "loadEnd": 1732749465177
+        },
+        "productId": "TRK-89olAsKyNOG7",
+        "pathCounts": {
+            "/profile": [
+                {
+                    "count": 5,
+                    "duration": [
+                        {
+                            "start": 1732749522653,
+                            "end": 1732749766927
+                        },
+                        {
+                            "start": 1732749536359,
+                            "end": 1732749620078
+                        },
+                        {
+                            "start": 1732749469517,
+                            "end": 1732749763397
+                        },
+                        {
+                            "start": 1732749478492,
+                            "end": 1732749616689
+                        },
+                        {
+                            "start": 1732749468830,
+                            "end": 1732749698675
+                        }
+                    ]
+                }
+            ],
+            "/home": [
+                {
+                    "count": 4,
+                    "duration": [
+                        {
+                            "start": 1732749561814,
+                            "end": 1732749789814
+                        },
+                        {
+                            "start": 1732749468990,
+                            "end": 1732749637992
+                        },
+                        {
+                            "start": 1732749549349,
+                            "end": 1732749575161
+                        },
+                        {
+                            "start": 1732749542706,
+                            "end": 1732749621294
+                        }
+                    ]
+                }
+            ]
+        },
+        "searchTerms": "Public particular up."
+    },
+    {
+        "start": 1732732883000,
+        "end": 1732750653617,
+        "bounce": {
+            "isBounced": false,
+            "pathname": "/frontend/index.html"
+        },
+        "device": "Desktop",
+        "browser": "Safari",
+        "location": {
+            "latitude": 40.4168,
+            "longitude": -3.7038,
+            "country": "Spain"
+        },
+        "uniqueId": "3ba5c0ca-2d1c-4d75-82b7-a2c821f2ea43",
+        "pathname": "/settings",
+        "language": "fr",
+        "referrer": "Google",
+        "events": {
+            "loadCount": 7,
+            "visibilitychangeCount": 7,
+            "resizeCount": 3,
+            "focusCount": 2,
+            "clickCount": 9,
+            "blurCount": 1
+        },
+        "pageLoadTime": {
+            "loadStart": 1732732883000,
+            "loadEnd": 1732732883046
+        },
+        "productId": "TRK-89olAsKyNOG7",
+        "pathCounts": {
+            "/settings": [
+                {
+                    "count": 5,
+                    "duration": [
+                        {
+                            "start": 1732732903179,
+                            "end": 1732733182761
+                        },
+                        {
+                            "start": 1732732928437,
+                            "end": 1732733168106
+                        },
+                        {
+                            "start": 1732732944477,
+                            "end": 1732732992370
+                        },
+                        {
+                            "start": 1732732922296,
+                            "end": 1732733218050
+                        },
+                        {
+                            "start": 1732732891269,
+                            "end": 1732733098482
+                        }
+                    ]
+                }
+            ],
+            "/profile": [
+                {
+                    "count": 4,
+                    "duration": [
+                        {
+                            "start": 1732732895374,
+                            "end": 1732733042897
+                        },
+                        {
+                            "start": 1732732971799,
+                            "end": 1732733050920
+                        },
+                        {
+                            "start": 1732732905733,
+                            "end": 1732733016353
+                        },
+                        {
+                            "start": 1732732925862,
+                            "end": 1732732956400
+                        }
+                    ]
+                }
+            ]
+        },
+        "searchTerms": "Media tough street public."
+    },
+    {
+        "start": 1732810452000,
+        "end": 1732831789701,
+        "bounce": {
+            "isBounced": false,
+            "pathname": "/frontend/index.html"
+        },
+        "device": "Tablet",
+        "browser": "Safari",
+        "location": {
+            "latitude": 48.8566,
+            "longitude": 2.3522,
+            "country": "France"
+        },
+        "uniqueId": "aca50ebd-2a70-41b2-a3f9-1a2deecc8322",
+        "pathname": "/home",
+        "language": "zh",
+        "referrer": "Direct",
+        "events": {
+            "loadCount": 6,
+            "visibilitychangeCount": 8,
+            "resizeCount": 2,
+            "focusCount": 7,
+            "clickCount": 7,
+            "blurCount": 9
+        },
+        "pageLoadTime": {
+            "loadStart": 1732810452000,
+            "loadEnd": 1732810452208
+        },
+        "productId": "TRK-Ob2CJVFgaau7",
+        "pathCounts": {
+            "/about": [
+                {
+                    "count": 5,
+                    "duration": [
+                        {
+                            "start": 1732810533592,
+                            "end": 1732810641830
+                        },
+                        {
+                            "start": 1732810460588,
+                            "end": 1732810622403
+                        },
+                        {
+                            "start": 1732810470902,
+                            "end": 1732810492882
+                        },
+                        {
+                            "start": 1732810541459,
+                            "end": 1732810751314
+                        },
+                        {
+                            "start": 1732810453119,
+                            "end": 1732810467932
+                        }
+                    ]
+                }
+            ],
+            "/dashboard": [
+                {
+                    "count": 3,
+                    "duration": [
+                        {
+                            "start": 1732810526611,
+                            "end": 1732810801917
+                        },
+                        {
+                            "start": 1732810526294,
+                            "end": 1732810648472
+                        },
+                        {
+                            "start": 1732810485809,
+                            "end": 1732810636139
+                        }
+                    ]
+                }
+            ],
+            "/home": [
+                {
+                    "count": 2,
+                    "duration": [
+                        {
+                            "start": 1732810525507,
+                            "end": 1732810579509
+                        },
+                        {
+                            "start": 1732810516715,
+                            "end": 1732810713653
+                        }
+                    ]
+                }
+            ]
+        },
+        "searchTerms": "Reveal side wait cell court less matter."
+    },
+    {
+        "start": 1732740425000,
+        "end": 1732756421861,
+        "bounce": {
+            "isBounced": false,
+            "pathname": "/frontend/index.html"
+        },
+        "device": "Tablet",
+        "browser": "Safari",
+        "location": {
+            "latitude": 23.6345,
+            "longitude": -102.5528,
+            "country": "Mexico"
+        },
+        "uniqueId": "9ce1bf0b-8366-40e1-b77c-9493a981c91b",
+        "pathname": "/profile",
+        "language": "it",
+        "referrer": "Google",
+        "events": {
+            "loadCount": 10,
+            "visibilitychangeCount": 7,
+            "resizeCount": 3,
+            "focusCount": 8,
+            "clickCount": 3,
+            "blurCount": 3
+        },
+        "pageLoadTime": {
+            "loadStart": 1732740425000,
+            "loadEnd": 1732740425933
+        },
+        "productId": "TRK-89olAsKyNOG7",
+        "pathCounts": {
+            "/profile": [
+                {
+                    "count": 2,
+                    "duration": [
+                        {
+                            "start": 1732740491675,
+                            "end": 1732740716737
+                        },
+                        {
+                            "start": 1732740475935,
+                            "end": 1732740702950
+                        }
+                    ]
+                }
+            ]
+        },
+        "searchTerms": "Break husband resource investment."
+    },
+    {
+        "start": 1732790758000,
+        "end": 1732794291768,
+        "bounce": {
+            "isBounced": true,
+            "pathname": "/frontend/index.html"
+        },
+        "device": "Desktop",
+        "browser": "Chrome",
+        "location": {
+            "latitude": -25.2744,
+            "longitude": 133.7751,
+            "country": "Australia"
+        },
+        "uniqueId": "f25d6d08-ed4a-4680-b7e3-94d4b30207df",
+        "pathname": "/frontend/index.html",
+        "language": "de",
+        "referrer": "Direct",
+        "events": {
+            "loadCount": 5,
+            "visibilitychangeCount": 3,
+            "resizeCount": 0,
+            "focusCount": 3,
+            "clickCount": 4,
+            "blurCount": 9
+        },
+        "pageLoadTime": {
+            "loadStart": 1732790758000,
+            "loadEnd": 1732790758017
+        },
+        "productId": "TRK-89olAsKyNOG7",
+        "pathCounts": {
+            "/dashboard": [
+                {
+                    "count": 3,
+                    "duration": [
+                        {
+                            "start": 1732790775780,
+                            "end": 1732790831184
+                        },
+                        {
+                            "start": 1732790761842,
+                            "end": 1732791001849
+                        },
+                        {
+                            "start": 1732790849003,
+                            "end": 1732790975845
+                        }
+                    ]
+                }
+            ],
+            "/profile": [
+                {
+                    "count": 1,
+                    "duration": [
+                        {
+                            "start": 1732790841901,
+                            "end": 1732790878047
+                        }
+                    ]
+                }
+            ],
+            "/home": [
+                {
+                    "count": 2,
+                    "duration": [
+                        {
+                            "start": 1732790837997,
+                            "end": 1732791082991
+                        },
+                        {
+                            "start": 1732790835931,
+                            "end": 1732790895216
+                        }
+                    ]
+                }
+            ]
+        },
+        "searchTerms": "College development air family always early evidence."
+    },
+    {
+        "start": 1732736623000,
+        "end": 1732755358076,
+        "bounce": {
+            "isBounced": true,
+            "pathname": "/frontend/index.html"
+        },
+        "device": "Tablet",
+        "browser": "Mozilla",
+        "location": {
+            "latitude": 35.8617,
+            "longitude": 104.1954,
+            "country": "China"
+        },
+        "uniqueId": "77f0712b-554f-4c5c-9898-14e7c77b26a0",
+        "pathname": "/settings",
+        "language": "zh",
+        "referrer": "Direct",
+        "events": {
+            "loadCount": 6,
+            "visibilitychangeCount": 10,
+            "resizeCount": 2,
+            "focusCount": 7,
+            "clickCount": 6,
+            "blurCount": 3
+        },
+        "pageLoadTime": {
+            "loadStart": 1732736623000,
+            "loadEnd": 1732736623465
+        },
+        "productId": "TRK-89olAsKyNOG7",
+        "pathCounts": {
+            "/settings": [
+                {
+                    "count": 1,
+                    "duration": [
+                        {
+                            "start": 1732736630894,
+                            "end": 1732736812981
+                        }
+                    ]
+                }
+            ],
+            "/about": [
+                {
+                    "count": 1,
+                    "duration": [
+                        {
+                            "start": 1732736713533,
+                            "end": 1732736926602
+                        }
+                    ]
+                }
+            ]
+        },
+        "searchTerms": "Guess good and."
+    },
+    {
+        "start": 1732810312000,
+        "end": 1732812970715,
         "bounce": {
             "isBounced": true,
             "pathname": "/frontend/index.html"
@@ -82,108 +758,54 @@
         "device": "Laptop",
         "browser": "Edge",
         "location": {
-            "latitude": 40.4168,
-            "longitude": -3.7038,
-            "country": "Spain"
+            "latitude": 48.8566,
+            "longitude": 2.3522,
+            "country": "France"
         },
-        "uniqueId": "f25d6d08-ed4a-4680-b7e3-94d4b30207df",
-        "pathname": "/settings",
-        "language": "de",
-        "referrer": "Email",
+        "uniqueId": "5bde6480-0ab0-43b2-8529-ae22b458f836",
+        "pathname": "/home",
+        "language": "en",
+        "referrer": "Direct",
         "events": {
-            "loadCount": 10,
-            "visibilitychangeCount": 9,
-            "resizeCount": 9,
-            "focusCount": 9,
+            "loadCount": 9,
+            "visibilitychangeCount": 4,
+            "resizeCount": 4,
+            "focusCount": 10,
             "clickCount": 3,
-            "blurCount": 8
+            "blurCount": 1
         },
         "pageLoadTime": {
-            "loadStart": 1732768136151,
-            "loadEnd": 1732768136751
+            "loadStart": 1732810312000,
+            "loadEnd": 1732810312302
         },
         "productId": "TRK-89olAsKyNOG7",
         "pathCounts": {
-            "/about": [
+            "/settings": [
                 {
-                    "count": 5,
+                    "count": 1,
                     "duration": [
                         {
-                            "start": 1732768161331,
-                            "end": 1732768313615
-                        },
-                        {
-                            "start": 1732768149130,
-                            "end": 1732768248653
-                        },
-                        {
-                            "start": 1732768154339,
-                            "end": 1732768400647
-                        },
-                        {
-                            "start": 1732768186998,
-                            "end": 1732768275124
-                        },
-                        {
-                            "start": 1732768223445,
-                            "end": 1732768486219
+                            "start": 1732810337231,
+                            "end": 1732810615446
                         }
                     ]
                 }
             ],
-            "/home": [
+            "/profile": [
                 {
-                    "count": 1,
+                    "count": 3,
                     "duration": [
                         {
-                            "start": 1732768228601,
-                            "end": 1732768289952
-                        }
-                    ]
-                }
-            ]
-        },
-        "searchTerms": "Ten threat economy most bank magazine."
-    },
-    {
-        "start": 1732768136,
-        "end": 1732769156,
-        "bounce": {
-            "isBounced": false,
-            "pathname": "/frontend/index.html"
-        },
-        "device": "Mobile",
-        "browser": "Safari",
-        "location": {
-            "latitude": 56.1304,
-            "longitude": -106.3468,
-            "country": "Canada"
-        },
-        "uniqueId": "3ba5c0ca-2d1c-4d75-82b7-a2c821f2ea43",
-        "pathname": "/settings",
-        "language": "es",
-        "referrer": "Google",
-        "events": {
-            "loadCount": 6,
-            "visibilitychangeCount": 6,
-            "resizeCount": 0,
-            "focusCount": 3,
-            "clickCount": 5,
-            "blurCount": 9
-        },
-        "pageLoadTime": {
-            "loadStart": 1732768136151,
-            "loadEnd": 1732768136765
-        },
-        "productId": "TRK-89olAsKyNOG7",
-        "pathCounts": {
-            "/about": [
-                {
-                    "count": 1,
-                    "duration": [
+                            "start": 1732810324940,
+                            "end": 1732810380483
+                        },
                         {
-                            "start": 1732768165580,
-                            "end": 1732768240506
+                            "start": 1732810337940,
+                            "end": 1732810424549
+                        },
+                        {
+                            "start": 1732810356442,
+                            "end": 1732810488882
                         }
                     ]
                 }
@@ -193,230 +815,444 @@
                     "count": 3,
                     "duration": [
                         {
-                            "start": 1732768191431,
-                            "end": 1732768248708
+                            "start": 1732810369853,
+                            "end": 1732810645001
                         },
                         {
-                            "start": 1732768197272,
-                            "end": 1732768238756
+                            "start": 1732810361342,
+                            "end": 1732810421737
                         },
                         {
-                            "start": 1732768184232,
-                            "end": 1732768337146
-                        }
-                    ]
-                }
-            ],
-            "/settings": [
-                {
-                    "count": 4,
-                    "duration": [
-                        {
-                            "start": 1732768190856,
-                            "end": 1732768308638
-                        },
-                        {
-                            "start": 1732768230971,
-                            "end": 1732768262296
-                        },
-                        {
-                            "start": 1732768188987,
-                            "end": 1732768193211
-                        },
-                        {
-                            "start": 1732768166996,
-                            "end": 1732768320821
-                        }
-                    ]
-                }
-            ],
-            "/profile": [
-                {
-                    "count": 4,
-                    "duration": [
-                        {
-                            "start": 1732768174036,
-                            "end": 1732768302683
-                        },
-                        {
-                            "start": 1732768203883,
-                            "end": 1732768271917
-                        },
-                        {
-                            "start": 1732768148716,
-                            "end": 1732768163921
-                        },
-                        {
-                            "start": 1732768181008,
-                            "end": 1732768366309
+                            "start": 1732810343090,
+                            "end": 1732810507039
                         }
                     ]
                 }
             ]
         },
-        "searchTerms": "Stand raise own girl product occur teach seem."
+        "searchTerms": "About entire back including role."
     },
     {
-        "start": 1732768136,
-        "end": 1732768436,
-        "bounce": {
-            "isBounced": true,
-            "pathname": "/frontend/index.html"
-        },
-        "device": "Mobile",
-        "browser": "Chrome",
-        "location": {
-            "latitude": 61.524,
-            "longitude": 105.3188,
-            "country": "Russia"
-        },
-        "uniqueId": "9b47b488-09f3-4d00-a56c-8c970bdfab8e",
-        "pathname": "/frontend/index.html",
-        "language": "ja",
-        "referrer": "Google",
-        "events": {
-            "loadCount": 10,
-            "visibilitychangeCount": 9,
-            "resizeCount": 3,
-            "focusCount": 8,
-            "clickCount": 2,
-            "blurCount": 0
-        },
-        "pageLoadTime": {
-            "loadStart": 1732768136151,
-            "loadEnd": 1732768136352
-        },
-        "productId": "TRK-TlxlcwGkl19t",
-        "pathCounts": {
-            "/settings": [
-                {
-                    "count": 1,
-                    "duration": [
-                        {
-                            "start": 1732768205608,
-                            "end": 1732768397220
-                        }
-                    ]
-                }
-            ],
-            "/home": [
-                {
-                    "count": 2,
-                    "duration": [
-                        {
-                            "start": 1732768143047,
-                            "end": 1732768329495
-                        },
-                        {
-                            "start": 1732768198578,
-                            "end": 1732768421231
-                        }
-                    ]
-                }
-            ],
-            "/about": [
-                {
-                    "count": 1,
-                    "duration": [
-                        {
-                            "start": 1732768178420,
-                            "end": 1732768461056
-                        }
-                    ]
-                }
-            ],
-            "/profile": [
-                {
-                    "count": 2,
-                    "duration": [
-                        {
-                            "start": 1732768177717,
-                            "end": 1732768388239
-                        },
-                        {
-                            "start": 1732768161061,
-                            "end": 1732768313519
-                        }
-                    ]
-                }
-            ]
-        },
-        "searchTerms": "Century only ago behind specific discussion walk enough."
-    },
-    {
-        "start": 1732768136,
-        "end": 1732768496,
+        "start": 1732772048000,
+        "end": 1732785599426,
         "bounce": {
             "isBounced": false,
             "pathname": "/frontend/index.html"
         },
         "device": "Desktop",
+        "browser": "Safari",
+        "location": {
+            "latitude": 40.4168,
+            "longitude": -3.7038,
+            "country": "Spain"
+        },
+        "uniqueId": "77f0712b-554f-4c5c-9898-14e7c77b26a0",
+        "pathname": "/home",
+        "language": "de",
+        "referrer": "Google",
+        "events": {
+            "loadCount": 1,
+            "visibilitychangeCount": 0,
+            "resizeCount": 7,
+            "focusCount": 5,
+            "clickCount": 5,
+            "blurCount": 0
+        },
+        "pageLoadTime": {
+            "loadStart": 1732772048000,
+            "loadEnd": 1732772048180
+        },
+        "productId": "TRK-89olAsKyNOG7",
+        "pathCounts": {
+            "/settings": [
+                {
+                    "count": 4,
+                    "duration": [
+                        {
+                            "start": 1732772077350,
+                            "end": 1732772357774
+                        },
+                        {
+                            "start": 1732772061116,
+                            "end": 1732772180215
+                        },
+                        {
+                            "start": 1732772091536,
+                            "end": 1732772388227
+                        },
+                        {
+                            "start": 1732772077760,
+                            "end": 1732772351910
+                        }
+                    ]
+                }
+            ],
+            "/home": [
+                {
+                    "count": 2,
+                    "duration": [
+                        {
+                            "start": 1732772089509,
+                            "end": 1732772232272
+                        },
+                        {
+                            "start": 1732772050878,
+                            "end": 1732772239509
+                        }
+                    ]
+                }
+            ],
+            "/dashboard": [
+                {
+                    "count": 4,
+                    "duration": [
+                        {
+                            "start": 1732772069731,
+                            "end": 1732772265628
+                        },
+                        {
+                            "start": 1732772147093,
+                            "end": 1732772228695
+                        },
+                        {
+                            "start": 1732772051963,
+                            "end": 1732772155749
+                        },
+                        {
+                            "start": 1732772113255,
+                            "end": 1732772183710
+                        }
+                    ]
+                }
+            ],
+            "/about": [
+                {
+                    "count": 1,
+                    "duration": [
+                        {
+                            "start": 1732772142666,
+                            "end": 1732772257713
+                        }
+                    ]
+                }
+            ]
+        },
+        "searchTerms": "Material believe whom."
+    },
+    {
+        "start": 1732787728000,
+        "end": 1732790403437,
+        "bounce": {
+            "isBounced": true,
+            "pathname": "/frontend/index.html"
+        },
+        "device": "Laptop",
         "browser": "Mozilla",
         "location": {
-            "latitude": 23.6345,
-            "longitude": -102.5528,
-            "country": "Mexico"
+            "latitude": 56.1304,
+            "longitude": -106.3468,
+            "country": "Canada"
         },
-        "uniqueId": "9ce1bf0b-8366-40e1-b77c-9493a981c91b",
-        "pathname": "/dashboard",
+        "uniqueId": "80d8a76b-4c97-4a12-9ac3-02a6d37e11a9",
+        "pathname": "/settings",
         "language": "es",
         "referrer": "Social Media",
         "events": {
-            "loadCount": 1,
-            "visibilitychangeCount": 6,
-            "resizeCount": 9,
-            "focusCount": 5,
-            "clickCount": 2,
-            "blurCount": 10
+            "loadCount": 9,
+            "visibilitychangeCount": 5,
+            "resizeCount": 8,
+            "focusCount": 4,
+            "clickCount": 5,
+            "blurCount": 7
         },
         "pageLoadTime": {
-            "loadStart": 1732768136151,
-            "loadEnd": 1732768136166
+            "loadStart": 1732787728000,
+            "loadEnd": 1732787728471
         },
         "productId": "TRK-TlxlcwGkl19t",
         "pathCounts": {
-            "/home": [
+            "/about": [
                 {
-                    "count": 5,
+                    "count": 3,
                     "duration": [
                         {
-                            "start": 1732768212907,
-                            "end": 1732768385922
+                            "start": 1732787804360,
+                            "end": 1732787999575
                         },
                         {
-                            "start": 1732768204910,
-                            "end": 1732768339354
+                            "start": 1732787771306,
+                            "end": 1732787805681
                         },
                         {
-                            "start": 1732768157216,
-                            "end": 1732768422686
+                            "start": 1732787742772,
+                            "end": 1732787973986
+                        }
+                    ]
+                }
+            ],
+            "/dashboard": [
+                {
+                    "count": 1,
+                    "duration": [
+                        {
+                            "start": 1732787757946,
+                            "end": 1732787842776
+                        }
+                    ]
+                }
+            ],
+            "/settings": [
+                {
+                    "count": 2,
+                    "duration": [
+                        {
+                            "start": 1732787776284,
+                            "end": 1732787880278
                         },
                         {
-                            "start": 1732768214270,
-                            "end": 1732768426431
+                            "start": 1732787751570,
+                            "end": 1732787828182
+                        }
+                    ]
+                }
+            ]
+        },
+        "searchTerms": "Recognize physical action how."
+    },
+    {
+        "start": 1732762687000,
+        "end": 1732771223982,
+        "bounce": {
+            "isBounced": false,
+            "pathname": "/frontend/index.html"
+        },
+        "device": "Mobile",
+        "browser": "Safari",
+        "location": {
+            "latitude": 61.524,
+            "longitude": 105.3188,
+            "country": "Russia"
+        },
+        "uniqueId": "5bde6480-0ab0-43b2-8529-ae22b458f836",
+        "pathname": "/dashboard",
+        "language": "de",
+        "referrer": "Google",
+        "events": {
+            "loadCount": 9,
+            "visibilitychangeCount": 0,
+            "resizeCount": 10,
+            "focusCount": 10,
+            "clickCount": 8,
+            "blurCount": 7
+        },
+        "pageLoadTime": {
+            "loadStart": 1732762687000,
+            "loadEnd": 1732762687953
+        },
+        "productId": "TRK-89olAsKyNOG7",
+        "pathCounts": {
+            "/about": [
+                {
+                    "count": 2,
+                    "duration": [
+                        {
+                            "start": 1732762721238,
+                            "end": 1732762895949
                         },
                         {
-                            "start": 1732768155734,
-                            "end": 1732768207370
+                            "start": 1732762700049,
+                            "end": 1732762863284
+                        }
+                    ]
+                }
+            ],
+            "/settings": [
+                {
+                    "count": 4,
+                    "duration": [
+                        {
+                            "start": 1732762750692,
+                            "end": 1732763017720
+                        },
+                        {
+                            "start": 1732762781294,
+                            "end": 1732762998221
+                        },
+                        {
+                            "start": 1732762748517,
+                            "end": 1732762991218
+                        },
+                        {
+                            "start": 1732762747118,
+                            "end": 1732762941280
                         }
                     ]
                 }
             ],
             "/profile": [
                 {
+                    "count": 5,
+                    "duration": [
+                        {
+                            "start": 1732762776464,
+                            "end": 1732762974296
+                        },
+                        {
+                            "start": 1732762717212,
+                            "end": 1732762865605
+                        },
+                        {
+                            "start": 1732762713485,
+                            "end": 1732762905631
+                        },
+                        {
+                            "start": 1732762768136,
+                            "end": 1732762791541
+                        },
+                        {
+                            "start": 1732762722932,
+                            "end": 1732762953468
+                        }
+                    ]
+                }
+            ]
+        },
+        "searchTerms": "Main discover best wife."
+    },
+    {
+        "start": 1732773041000,
+        "end": 1732790175466,
+        "bounce": {
+            "isBounced": false,
+            "pathname": "/frontend/index.html"
+        },
+        "device": "Mobile",
+        "browser": "Edge",
+        "location": {
+            "latitude": 51.5099,
+            "longitude": -0.1181,
+            "country": "UK"
+        },
+        "uniqueId": "9b47b488-09f3-4d00-a56c-8c970bdfab8e",
+        "pathname": "/frontend/index.html",
+        "language": "zh",
+        "referrer": "Social Media",
+        "events": {
+            "loadCount": 9,
+            "visibilitychangeCount": 10,
+            "resizeCount": 0,
+            "focusCount": 5,
+            "clickCount": 3,
+            "blurCount": 5
+        },
+        "pageLoadTime": {
+            "loadStart": 1732773041000,
+            "loadEnd": 1732773041524
+        },
+        "productId": "TRK-Ob2CJVFgaau7",
+        "pathCounts": {
+            "/dashboard": [
+                {
+                    "count": 1,
+                    "duration": [
+                        {
+                            "start": 1732773119692,
+                            "end": 1732773379977
+                        }
+                    ]
+                }
+            ],
+            "/settings": [
+                {
                     "count": 3,
                     "duration": [
                         {
-                            "start": 1732768212813,
-                            "end": 1732768290644
+                            "start": 1732773080600,
+                            "end": 1732773271541
                         },
                         {
-                            "start": 1732768234118,
-                            "end": 1732768273150
+                            "start": 1732773139989,
+                            "end": 1732773173154
                         },
                         {
-                            "start": 1732768136519,
-                            "end": 1732768345238
+                            "start": 1732773099864,
+                            "end": 1732773216316
+                        }
+                    ]
+                }
+            ],
+            "/about": [
+                {
+                    "count": 2,
+                    "duration": [
+                        {
+                            "start": 1732773114456,
+                            "end": 1732773173216
+                        },
+                        {
+                            "start": 1732773134329,
+                            "end": 1732773359651
+                        }
+                    ]
+                }
+            ],
+            "/profile": [
+                {
+                    "count": 1,
+                    "duration": [
+                        {
+                            "start": 1732773135486,
+                            "end": 1732773193570
+                        }
+                    ]
+                }
+            ]
+        },
+        "searchTerms": "Simply up several three go beat expect."
+    },
+    {
+        "start": 1732752423000,
+        "end": 1732763546639,
+        "bounce": {
+            "isBounced": true,
+            "pathname": "/frontend/index.html"
+        },
+        "device": "Tablet",
+        "browser": "Safari",
+        "location": {
+            "latitude": -30.5595,
+            "longitude": 22.9375,
+            "country": "South Africa"
+        },
+        "uniqueId": "3ba5c0ca-2d1c-4d75-82b7-a2c821f2ea43",
+        "pathname": "/settings",
+        "language": "fr",
+        "referrer": "Google",
+        "events": {
+            "loadCount": 3,
+            "visibilitychangeCount": 3,
+            "resizeCount": 5,
+            "focusCount": 10,
+            "clickCount": 6,
+            "blurCount": 4
+        },
+        "pageLoadTime": {
+            "loadStart": 1732752423000,
+            "loadEnd": 1732752423340
+        },
+        "productId": "TRK-Ob2CJVFgaau7",
+        "pathCounts": {
+            "/about": [
+                {
+                    "count": 2,
+                    "duration": [
+                        {
+                            "start": 1732752493166,
+                            "end": 1732752718349
+                        },
+                        {
+                            "start": 1732752501121,
+                            "end": 1732752675428
                         }
                     ]
                 }
@@ -426,48 +1262,401 @@
                     "count": 5,
                     "duration": [
                         {
-                            "start": 1732768214590,
-                            "end": 1732768425192
+                            "start": 1732752519729,
+                            "end": 1732752603509
                         },
                         {
-                            "start": 1732768188942,
-                            "end": 1732768461853
+                            "start": 1732752455894,
+                            "end": 1732752521589
                         },
                         {
-                            "start": 1732768219605,
-                            "end": 1732768472957
+                            "start": 1732752494849,
+                            "end": 1732752737104
                         },
                         {
-                            "start": 1732768200307,
-                            "end": 1732768204341
+                            "start": 1732752521428,
+                            "end": 1732752525127
                         },
                         {
-                            "start": 1732768207112,
-                            "end": 1732768410932
+                            "start": 1732752447738,
+                            "end": 1732752520290
+                        }
+                    ]
+                }
+            ],
+            "/home": [
+                {
+                    "count": 2,
+                    "duration": [
+                        {
+                            "start": 1732752493354,
+                            "end": 1732752734035
+                        },
+                        {
+                            "start": 1732752467406,
+                            "end": 1732752524747
+                        }
+                    ]
+                }
+            ]
+        },
+        "searchTerms": "Age several group pretty."
+    },
+    {
+        "start": 1732754189000,
+        "end": 1732773052365,
+        "bounce": {
+            "isBounced": false,
+            "pathname": "/frontend/index.html"
+        },
+        "device": "Mobile",
+        "browser": "Safari",
+        "location": {
+            "latitude": -14.235,
+            "longitude": -51.9253,
+            "country": "Brazil"
+        },
+        "uniqueId": "111907fd-95b7-4729-a2af-e51ad656e288",
+        "pathname": "/dashboard",
+        "language": "ja",
+        "referrer": "Google",
+        "events": {
+            "loadCount": 6,
+            "visibilitychangeCount": 4,
+            "resizeCount": 5,
+            "focusCount": 10,
+            "clickCount": 0,
+            "blurCount": 6
+        },
+        "pageLoadTime": {
+            "loadStart": 1732754189000,
+            "loadEnd": 1732754189357
+        },
+        "productId": "TRK-TlxlcwGkl19t",
+        "pathCounts": {
+            "/about": [
+                {
+                    "count": 2,
+                    "duration": [
+                        {
+                            "start": 1732754275784,
+                            "end": 1732754513381
+                        },
+                        {
+                            "start": 1732754191631,
+                            "end": 1732754400635
+                        }
+                    ]
+                }
+            ],
+            "/home": [
+                {
+                    "count": 4,
+                    "duration": [
+                        {
+                            "start": 1732754209979,
+                            "end": 1732754495457
+                        },
+                        {
+                            "start": 1732754201236,
+                            "end": 1732754356991
+                        },
+                        {
+                            "start": 1732754234678,
+                            "end": 1732754527442
+                        },
+                        {
+                            "start": 1732754198865,
+                            "end": 1732754379943
+                        }
+                    ]
+                }
+            ],
+            "/profile": [
+                {
+                    "count": 3,
+                    "duration": [
+                        {
+                            "start": 1732754200508,
+                            "end": 1732754433715
+                        },
+                        {
+                            "start": 1732754193832,
+                            "end": 1732754359523
+                        },
+                        {
+                            "start": 1732754230122,
+                            "end": 1732754335681
+                        }
+                    ]
+                }
+            ]
+        },
+        "searchTerms": "Mention paper who father girl citizen court."
+    },
+    {
+        "start": 1732802523000,
+        "end": 1732813041854,
+        "bounce": {
+            "isBounced": false,
+            "pathname": "/frontend/index.html"
+        },
+        "device": "Laptop",
+        "browser": "Chrome",
+        "location": {
+            "latitude": -30.5595,
+            "longitude": 22.9375,
+            "country": "South Africa"
+        },
+        "uniqueId": "37f86d6c-c234-4339-9c0f-ec3bdaab8536",
+        "pathname": "/frontend/index.html",
+        "language": "ja",
+        "referrer": "Google",
+        "events": {
+            "loadCount": 5,
+            "visibilitychangeCount": 5,
+            "resizeCount": 3,
+            "focusCount": 0,
+            "clickCount": 5,
+            "blurCount": 0
+        },
+        "pageLoadTime": {
+            "loadStart": 1732802523000,
+            "loadEnd": 1732802523818
+        },
+        "productId": "TRK-Ob2CJVFgaau7",
+        "pathCounts": {
+            "/about": [
+                {
+                    "count": 4,
+                    "duration": [
+                        {
+                            "start": 1732802614669,
+                            "end": 1732802742848
+                        },
+                        {
+                            "start": 1732802564977,
+                            "end": 1732802572163
+                        },
+                        {
+                            "start": 1732802541912,
+                            "end": 1732802793503
+                        },
+                        {
+                            "start": 1732802562083,
+                            "end": 1732802591274
+                        }
+                    ]
+                }
+            ],
+            "/profile": [
+                {
+                    "count": 3,
+                    "duration": [
+                        {
+                            "start": 1732802546381,
+                            "end": 1732802714920
+                        },
+                        {
+                            "start": 1732802602027,
+                            "end": 1732802819857
+                        },
+                        {
+                            "start": 1732802597579,
+                            "end": 1732802708036
+                        }
+                    ]
+                }
+            ],
+            "/settings": [
+                {
+                    "count": 4,
+                    "duration": [
+                        {
+                            "start": 1732802592248,
+                            "end": 1732802723369
+                        },
+                        {
+                            "start": 1732802545829,
+                            "end": 1732802842739
+                        },
+                        {
+                            "start": 1732802602672,
+                            "end": 1732802849913
+                        },
+                        {
+                            "start": 1732802560145,
+                            "end": 1732802826606
+                        }
+                    ]
+                }
+            ]
+        },
+        "searchTerms": "Your example law whole article recently practice."
+    },
+    {
+        "start": 1732798171000,
+        "end": 1732806455276,
+        "bounce": {
+            "isBounced": false,
+            "pathname": "/frontend/index.html"
+        },
+        "device": "Laptop",
+        "browser": "Mozilla",
+        "location": {
+            "latitude": 41.9028,
+            "longitude": 12.4964,
+            "country": "Italy"
+        },
+        "uniqueId": "5bde6480-0ab0-43b2-8529-ae22b458f836",
+        "pathname": "/settings",
+        "language": "de",
+        "referrer": "Google",
+        "events": {
+            "loadCount": 1,
+            "visibilitychangeCount": 4,
+            "resizeCount": 5,
+            "focusCount": 7,
+            "clickCount": 9,
+            "blurCount": 6
+        },
+        "pageLoadTime": {
+            "loadStart": 1732798171000,
+            "loadEnd": 1732798171868
+        },
+        "productId": "TRK-89olAsKyNOG7",
+        "pathCounts": {
+            "/home": [
+                {
+                    "count": 1,
+                    "duration": [
+                        {
+                            "start": 1732798260592,
+                            "end": 1732798418824
+                        }
+                    ]
+                }
+            ],
+            "/settings": [
+                {
+                    "count": 5,
+                    "duration": [
+                        {
+                            "start": 1732798242931,
+                            "end": 1732798306592
+                        },
+                        {
+                            "start": 1732798214746,
+                            "end": 1732798357322
+                        },
+                        {
+                            "start": 1732798182431,
+                            "end": 1732798350353
+                        },
+                        {
+                            "start": 1732798182996,
+                            "end": 1732798277820
+                        },
+                        {
+                            "start": 1732798232743,
+                            "end": 1732798390239
                         }
                     ]
                 }
             ],
             "/about": [
                 {
-                    "count": 3,
+                    "count": 4,
                     "duration": [
                         {
-                            "start": 1732768152055,
-                            "end": 1732768414236
+                            "start": 1732798265552,
+                            "end": 1732798508266
                         },
                         {
-                            "start": 1732768234346,
-                            "end": 1732768506993
+                            "start": 1732798247098,
+                            "end": 1732798318565
                         },
                         {
-                            "start": 1732768162162,
-                            "end": 1732768411205
+                            "start": 1732798174135,
+                            "end": 1732798380042
+                        },
+                        {
+                            "start": 1732798228231,
+                            "end": 1732798308872
                         }
                     ]
                 }
             ]
         },
-        "searchTerms": "Care husband yet treat carry type responsibility firm."
+        "searchTerms": "Month where garden writer."
+    },
+    {
+        "start": 1732734854000,
+        "end": 1732740545899,
+        "bounce": {
+            "isBounced": false,
+            "pathname": "/frontend/index.html"
+        },
+        "device": "Laptop",
+        "browser": "Edge",
+        "location": {
+            "latitude": 41.9028,
+            "longitude": 12.4964,
+            "country": "Italy"
+        },
+        "uniqueId": "ffef8945-c190-4f95-930f-4e35c2e3a868",
+        "pathname": "/profile",
+        "language": "zh",
+        "referrer": "Direct",
+        "events": {
+            "loadCount": 0,
+            "visibilitychangeCount": 2,
+            "resizeCount": 3,
+            "focusCount": 8,
+            "clickCount": 8,
+            "blurCount": 10
+        },
+        "pageLoadTime": {
+            "loadStart": 1732734854000,
+            "loadEnd": 1732734854429
+        },
+        "productId": "TRK-Ob2CJVFgaau7",
+        "pathCounts": {
+            "/settings": [
+                {
+                    "count": 2,
+                    "duration": [
+                        {
+                            "start": 1732734923753,
+                            "end": 1732734931636
+                        },
+                        {
+                            "start": 1732734886700,
+                            "end": 1732735015600
+                        }
+                    ]
+                }
+            ],
+            "/profile": [
+                {
+                    "count": 3,
+                    "duration": [
+                        {
+                            "start": 1732734944642,
+                            "end": 1732735206346
+                        },
+                        {
+                            "start": 1732734902496,
+                            "end": 1732735022456
+                        },
+                        {
+                            "start": 1732734914374,
+                            "end": 1732735035889
+                        }
+                    ]
+                }
+            ]
+        },
+        "searchTerms": "Red thousand collection mission sign get still."
     }
 ]

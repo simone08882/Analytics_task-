@@ -1,58 +1,70 @@
 [
     {
-        "start": 1736656136,
-        "end": 1736657216,
+        "start": 1736640297000,
+        "end": 1736647885013,
         "bounce": {
-            "isBounced": false,
+            "isBounced": true,
             "pathname": "/frontend/index.html"
         },
-        "device": "Laptop",
+        "device": "Tablet",
         "browser": "Safari",
         "location": {
-            "latitude": 36.2048,
-            "longitude": 138.2529,
-            "country": "Japan"
+            "latitude": 56.1304,
+            "longitude": -106.3468,
+            "country": "Canada"
         },
-        "uniqueId": "3da55713-36de-4077-9d4d-626d934aafe0",
+        "uniqueId": "ca9d1f5f-925b-4a59-b362-4703a75ad77c",
         "pathname": "/frontend/index.html",
-        "language": "it",
-        "referrer": "Direct",
+        "language": "en",
+        "referrer": "Social Media",
         "events": {
-            "loadCount": 9,
-            "visibilitychangeCount": 1,
+            "loadCount": 6,
+            "visibilitychangeCount": 3,
             "resizeCount": 7,
-            "focusCount": 9,
-            "clickCount": 10,
-            "blurCount": 4
+            "focusCount": 3,
+            "clickCount": 8,
+            "blurCount": 1
         },
         "pageLoadTime": {
-            "loadStart": 1736656136151,
-            "loadEnd": 1736656136525
+            "loadStart": 1736640297000,
+            "loadEnd": 1736640297619
         },
-        "productId": "TRK-Ob2CJVFgaau7",
+        "productId": "TRK-TlxlcwGkl19t",
         "pathCounts": {
-            "/settings": [
+            "/about": [
                 {
-                    "count": 2,
+                    "count": 3,
                     "duration": [
                         {
-                            "start": 1736656195563,
-                            "end": 1736656476842
+                            "start": 1736640347066,
+                            "end": 1736640508675
                         },
                         {
-                            "start": 1736656205900,
-                            "end": 1736656441596
+                            "start": 1736640316368,
+                            "end": 1736640560994
+                        },
+                        {
+                            "start": 1736640347697,
+                            "end": 1736640496334
                         }
                     ]
                 }
             ],
-            "/dashboard": [
+            "/home": [
                 {
-                    "count": 1,
+                    "count": 3,
                     "duration": [
                         {
-                            "start": 1736656148220,
-                            "end": 1736656339501
+                            "start": 1736640331307,
+                            "end": 1736640559837
+                        },
+                        {
+                            "start": 1736640326193,
+                            "end": 1736640503066
+                        },
+                        {
+                            "start": 1736640298266,
+                            "end": 1736640575963
                         }
                     ]
                 }
@@ -62,53 +74,267 @@
                     "count": 4,
                     "duration": [
                         {
-                            "start": 1736656155174,
-                            "end": 1736656383202
+                            "start": 1736640366444,
+                            "end": 1736640622372
                         },
                         {
-                            "start": 1736656209655,
-                            "end": 1736656374487
+                            "start": 1736640321394,
+                            "end": 1736640571680
                         },
                         {
-                            "start": 1736656232508,
-                            "end": 1736656436388
+                            "start": 1736640379136,
+                            "end": 1736640431747
                         },
                         {
-                            "start": 1736656219447,
-                            "end": 1736656228128
+                            "start": 1736640303491,
+                            "end": 1736640541750
+                        }
+                    ]
+                }
+            ],
+            "/settings": [
+                {
+                    "count": 3,
+                    "duration": [
+                        {
+                            "start": 1736640310611,
+                            "end": 1736640449818
+                        },
+                        {
+                            "start": 1736640310599,
+                            "end": 1736640397789
+                        },
+                        {
+                            "start": 1736640325065,
+                            "end": 1736640581580
+                        }
+                    ]
+                }
+            ]
+        },
+        "searchTerms": "Enough right sign central meeting."
+    },
+    {
+        "start": 1736636871000,
+        "end": 1736643986529,
+        "bounce": {
+            "isBounced": false,
+            "pathname": "/frontend/index.html"
+        },
+        "device": "Desktop",
+        "browser": "Safari",
+        "location": {
+            "latitude": 56.1304,
+            "longitude": -106.3468,
+            "country": "Canada"
+        },
+        "uniqueId": "37f86d6c-c234-4339-9c0f-ec3bdaab8536",
+        "pathname": "/home",
+        "language": "ja",
+        "referrer": "Google",
+        "events": {
+            "loadCount": 7,
+            "visibilitychangeCount": 5,
+            "resizeCount": 2,
+            "focusCount": 10,
+            "clickCount": 6,
+            "blurCount": 8
+        },
+        "pageLoadTime": {
+            "loadStart": 1736636871000,
+            "loadEnd": 1736636871212
+        },
+        "productId": "TRK-TlxlcwGkl19t",
+        "pathCounts": {
+            "/home": [
+                {
+                    "count": 3,
+                    "duration": [
+                        {
+                            "start": 1736636872515,
+                            "end": 1736636908766
+                        },
+                        {
+                            "start": 1736636876228,
+                            "end": 1736637058413
+                        },
+                        {
+                            "start": 1736636961179,
+                            "end": 1736637134454
+                        }
+                    ]
+                }
+            ],
+            "/about": [
+                {
+                    "count": 3,
+                    "duration": [
+                        {
+                            "start": 1736636942185,
+                            "end": 1736637177473
+                        },
+                        {
+                            "start": 1736636906437,
+                            "end": 1736637082269
+                        },
+                        {
+                            "start": 1736636963887,
+                            "end": 1736637070926
+                        }
+                    ]
+                }
+            ],
+            "/dashboard": [
+                {
+                    "count": 3,
+                    "duration": [
+                        {
+                            "start": 1736636970442,
+                            "end": 1736637050079
+                        },
+                        {
+                            "start": 1736636913925,
+                            "end": 1736637052171
+                        },
+                        {
+                            "start": 1736636887929,
+                            "end": 1736637050795
+                        }
+                    ]
+                }
+            ],
+            "/profile": [
+                {
+                    "count": 2,
+                    "duration": [
+                        {
+                            "start": 1736636877527,
+                            "end": 1736637095543
+                        },
+                        {
+                            "start": 1736636932366,
+                            "end": 1736637187136
+                        }
+                    ]
+                }
+            ]
+        },
+        "searchTerms": "Foot baby business century deal suddenly billion."
+    },
+    {
+        "start": 1736640708000,
+        "end": 1736659626766,
+        "bounce": {
+            "isBounced": true,
+            "pathname": "/frontend/index.html"
+        },
+        "device": "Mobile",
+        "browser": "Edge",
+        "location": {
+            "latitude": 61.524,
+            "longitude": 105.3188,
+            "country": "Russia"
+        },
+        "uniqueId": "aa76de66-83a4-4c21-92f5-cfe20525387a",
+        "pathname": "/profile",
+        "language": "en",
+        "referrer": "Social Media",
+        "events": {
+            "loadCount": 2,
+            "visibilitychangeCount": 4,
+            "resizeCount": 2,
+            "focusCount": 8,
+            "clickCount": 6,
+            "blurCount": 1
+        },
+        "pageLoadTime": {
+            "loadStart": 1736640708000,
+            "loadEnd": 1736640708231
+        },
+        "productId": "TRK-89olAsKyNOG7",
+        "pathCounts": {
+            "/about": [
+                {
+                    "count": 3,
+                    "duration": [
+                        {
+                            "start": 1736640782999,
+                            "end": 1736640810854
+                        },
+                        {
+                            "start": 1736640760959,
+                            "end": 1736640991411
+                        },
+                        {
+                            "start": 1736640739085,
+                            "end": 1736640951863
+                        }
+                    ]
+                }
+            ],
+            "/dashboard": [
+                {
+                    "count": 5,
+                    "duration": [
+                        {
+                            "start": 1736640806588,
+                            "end": 1736640853878
+                        },
+                        {
+                            "start": 1736640761253,
+                            "end": 1736640837101
+                        },
+                        {
+                            "start": 1736640782073,
+                            "end": 1736640845081
+                        },
+                        {
+                            "start": 1736640779269,
+                            "end": 1736640921235
+                        },
+                        {
+                            "start": 1736640766275,
+                            "end": 1736640970399
+                        }
+                    ]
+                }
+            ],
+            "/profile": [
+                {
+                    "count": 3,
+                    "duration": [
+                        {
+                            "start": 1736640712813,
+                            "end": 1736640955148
+                        },
+                        {
+                            "start": 1736640717762,
+                            "end": 1736641015957
+                        },
+                        {
+                            "start": 1736640732580,
+                            "end": 1736640824683
                         }
                     ]
                 }
             ],
             "/home": [
                 {
-                    "count": 4,
+                    "count": 1,
                     "duration": [
                         {
-                            "start": 1736656209003,
-                            "end": 1736656223178
-                        },
-                        {
-                            "start": 1736656155045,
-                            "end": 1736656340684
-                        },
-                        {
-                            "start": 1736656152495,
-                            "end": 1736656421699
-                        },
-                        {
-                            "start": 1736656179071,
-                            "end": 1736656337031
+                            "start": 1736640777480,
+                            "end": 1736641054656
                         }
                     ]
                 }
             ]
         },
-        "searchTerms": "Allow return through black father."
+        "searchTerms": "Food have country husband none detail."
     },
     {
-        "start": 1736656136,
-        "end": 1736659736,
+        "start": 1736671001000,
+        "end": 1736691011958,
         "bounce": {
             "isBounced": false,
             "pathname": "/frontend/index.html"
@@ -116,1055 +342,350 @@
         "device": "Mobile",
         "browser": "Edge",
         "location": {
-            "latitude": 56.1304,
-            "longitude": -106.3468,
-            "country": "Canada"
+            "latitude": 61.524,
+            "longitude": 105.3188,
+            "country": "Russia"
         },
-        "uniqueId": "aca50ebd-2a70-41b2-a3f9-1a2deecc8322",
-        "pathname": "/profile",
-        "language": "fr",
+        "uniqueId": "9ce1bf0b-8366-40e1-b77c-9493a981c91b",
+        "pathname": "/frontend/index.html",
+        "language": "ja",
         "referrer": "Social Media",
         "events": {
-            "loadCount": 2,
-            "visibilitychangeCount": 6,
-            "resizeCount": 6,
-            "focusCount": 9,
-            "clickCount": 2,
-            "blurCount": 6
+            "loadCount": 3,
+            "visibilitychangeCount": 10,
+            "resizeCount": 9,
+            "focusCount": 10,
+            "clickCount": 6,
+            "blurCount": 10
         },
         "pageLoadTime": {
-            "loadStart": 1736656136151,
-            "loadEnd": 1736656137011
+            "loadStart": 1736671001000,
+            "loadEnd": 1736671001744
         },
-        "productId": "TRK-Ob2CJVFgaau7",
+        "productId": "TRK-89olAsKyNOG7",
         "pathCounts": {
-            "/home": [
-                {
-                    "count": 1,
-                    "duration": [
-                        {
-                            "start": 1736656203396,
-                            "end": 1736656424725
-                        }
-                    ]
-                }
-            ],
             "/about": [
                 {
-                    "count": 1,
+                    "count": 3,
                     "duration": [
                         {
-                            "start": 1736656221544,
-                            "end": 1736656371019
+                            "start": 1736671041815,
+                            "end": 1736671076190
+                        },
+                        {
+                            "start": 1736671084799,
+                            "end": 1736671163207
+                        },
+                        {
+                            "start": 1736671017410,
+                            "end": 1736671211010
                         }
                     ]
                 }
             ],
             "/profile": [
                 {
-                    "count": 5,
+                    "count": 4,
                     "duration": [
                         {
-                            "start": 1736656136791,
-                            "end": 1736656420515
+                            "start": 1736671068673,
+                            "end": 1736671330406
                         },
                         {
-                            "start": 1736656147264,
-                            "end": 1736656238495
+                            "start": 1736671049278,
+                            "end": 1736671327014
                         },
                         {
-                            "start": 1736656202673,
-                            "end": 1736656415082
+                            "start": 1736671096463,
+                            "end": 1736671186036
                         },
                         {
-                            "start": 1736656227381,
-                            "end": 1736656254533
-                        },
-                        {
-                            "start": 1736656170913,
-                            "end": 1736656322209
-                        }
-                    ]
-                }
-            ]
-        },
-        "searchTerms": "Summer peace structure positive then bad full."
-    },
-    {
-        "start": 1736656136,
-        "end": 1736657456,
-        "bounce": {
-            "isBounced": true,
-            "pathname": "/frontend/index.html"
-        },
-        "device": "Laptop",
-        "browser": "Chrome",
-        "location": {
-            "latitude": -30.5595,
-            "longitude": 22.9375,
-            "country": "South Africa"
-        },
-        "uniqueId": "31b1cad6-43b6-4fa7-95e5-7d79676b01e7",
-        "pathname": "/frontend/index.html",
-        "language": "ja",
-        "referrer": "Direct",
-        "events": {
-            "loadCount": 9,
-            "visibilitychangeCount": 9,
-            "resizeCount": 0,
-            "focusCount": 0,
-            "clickCount": 3,
-            "blurCount": 6
-        },
-        "pageLoadTime": {
-            "loadStart": 1736656136151,
-            "loadEnd": 1736656136470
-        },
-        "productId": "TRK-Ob2CJVFgaau7",
-        "pathCounts": {
-            "/dashboard": [
-                {
-                    "count": 2,
-                    "duration": [
-                        {
-                            "start": 1736656172523,
-                            "end": 1736656256626
-                        },
-                        {
-                            "start": 1736656202954,
-                            "end": 1736656211445
+                            "start": 1736671094572,
+                            "end": 1736671291051
                         }
                     ]
                 }
             ],
             "/settings": [
                 {
+                    "count": 3,
+                    "duration": [
+                        {
+                            "start": 1736671075535,
+                            "end": 1736671228110
+                        },
+                        {
+                            "start": 1736671068215,
+                            "end": 1736671195279
+                        },
+                        {
+                            "start": 1736671049801,
+                            "end": 1736671271114
+                        }
+                    ]
+                }
+            ],
+            "/home": [
+                {
                     "count": 2,
                     "duration": [
                         {
-                            "start": 1736656221152,
-                            "end": 1736656227037
+                            "start": 1736671059394,
+                            "end": 1736671191661
                         },
                         {
-                            "start": 1736656175846,
-                            "end": 1736656452612
+                            "start": 1736671013760,
+                            "end": 1736671070655
                         }
                     ]
                 }
             ]
         },
-        "searchTerms": "Coach truth investment first according."
+        "searchTerms": "Well civil eye floor majority."
     },
     {
-        "start": 1736656136,
-        "end": 1736657636,
+        "start": 1736690656000,
+        "end": 1736692947784,
         "bounce": {
-            "isBounced": true,
+            "isBounced": false,
+            "pathname": "/frontend/index.html"
+        },
+        "device": "Mobile",
+        "browser": "Chrome",
+        "location": {
+            "latitude": 37.0902,
+            "longitude": -95.7129,
+            "country": "USA"
+        },
+        "uniqueId": "3da55713-36de-4077-9d4d-626d934aafe0",
+        "pathname": "/dashboard",
+        "language": "fr",
+        "referrer": "Direct",
+        "events": {
+            "loadCount": 5,
+            "visibilitychangeCount": 7,
+            "resizeCount": 4,
+            "focusCount": 7,
+            "clickCount": 4,
+            "blurCount": 5
+        },
+        "pageLoadTime": {
+            "loadStart": 1736690656000,
+            "loadEnd": 1736690656831
+        },
+        "productId": "TRK-Ob2CJVFgaau7",
+        "pathCounts": {
+            "/home": [
+                {
+                    "count": 3,
+                    "duration": [
+                        {
+                            "start": 1736690679093,
+                            "end": 1736690713355
+                        },
+                        {
+                            "start": 1736690729347,
+                            "end": 1736690780639
+                        },
+                        {
+                            "start": 1736690753112,
+                            "end": 1736690833083
+                        }
+                    ]
+                }
+            ],
+            "/profile": [
+                {
+                    "count": 4,
+                    "duration": [
+                        {
+                            "start": 1736690717322,
+                            "end": 1736691006065
+                        },
+                        {
+                            "start": 1736690663351,
+                            "end": 1736690680757
+                        },
+                        {
+                            "start": 1736690742209,
+                            "end": 1736690950740
+                        },
+                        {
+                            "start": 1736690696747,
+                            "end": 1736690745921
+                        }
+                    ]
+                }
+            ],
+            "/about": [
+                {
+                    "count": 5,
+                    "duration": [
+                        {
+                            "start": 1736690727210,
+                            "end": 1736690799430
+                        },
+                        {
+                            "start": 1736690657823,
+                            "end": 1736690899990
+                        },
+                        {
+                            "start": 1736690699025,
+                            "end": 1736690857570
+                        },
+                        {
+                            "start": 1736690692920,
+                            "end": 1736690921426
+                        },
+                        {
+                            "start": 1736690692502,
+                            "end": 1736690908921
+                        }
+                    ]
+                }
+            ],
+            "/settings": [
+                {
+                    "count": 1,
+                    "duration": [
+                        {
+                            "start": 1736690746503,
+                            "end": 1736691018532
+                        }
+                    ]
+                }
+            ],
+            "/dashboard": [
+                {
+                    "count": 3,
+                    "duration": [
+                        {
+                            "start": 1736690712271,
+                            "end": 1736690772375
+                        },
+                        {
+                            "start": 1736690673803,
+                            "end": 1736690862692
+                        },
+                        {
+                            "start": 1736690681456,
+                            "end": 1736690694648
+                        }
+                    ]
+                }
+            ]
+        },
+        "searchTerms": "Son prevent force."
+    },
+    {
+        "start": 1736700507000,
+        "end": 1736715465076,
+        "bounce": {
+            "isBounced": false,
             "pathname": "/frontend/index.html"
         },
         "device": "Tablet",
-        "browser": "Chrome",
+        "browser": "Safari",
         "location": {
             "latitude": 40.4168,
             "longitude": -3.7038,
             "country": "Spain"
         },
-        "uniqueId": "ffef8945-c190-4f95-930f-4e35c2e3a868",
-        "pathname": "/profile",
-        "language": "de",
-        "referrer": "Google",
-        "events": {
-            "loadCount": 7,
-            "visibilitychangeCount": 1,
-            "resizeCount": 6,
-            "focusCount": 7,
-            "clickCount": 3,
-            "blurCount": 0
-        },
-        "pageLoadTime": {
-            "loadStart": 1736656136151,
-            "loadEnd": 1736656136743
-        },
-        "productId": "TRK-TlxlcwGkl19t",
-        "pathCounts": {
-            "/dashboard": [
-                {
-                    "count": 5,
-                    "duration": [
-                        {
-                            "start": 1736656161661,
-                            "end": 1736656368593
-                        },
-                        {
-                            "start": 1736656195908,
-                            "end": 1736656416327
-                        },
-                        {
-                            "start": 1736656170987,
-                            "end": 1736656361828
-                        },
-                        {
-                            "start": 1736656160534,
-                            "end": 1736656246181
-                        },
-                        {
-                            "start": 1736656206300,
-                            "end": 1736656221922
-                        }
-                    ]
-                }
-            ],
-            "/profile": [
-                {
-                    "count": 1,
-                    "duration": [
-                        {
-                            "start": 1736656194845,
-                            "end": 1736656307697
-                        }
-                    ]
-                }
-            ],
-            "/settings": [
-                {
-                    "count": 1,
-                    "duration": [
-                        {
-                            "start": 1736656162911,
-                            "end": 1736656367390
-                        }
-                    ]
-                }
-            ],
-            "/about": [
-                {
-                    "count": 3,
-                    "duration": [
-                        {
-                            "start": 1736656195998,
-                            "end": 1736656418308
-                        },
-                        {
-                            "start": 1736656197855,
-                            "end": 1736656457128
-                        },
-                        {
-                            "start": 1736656183458,
-                            "end": 1736656276570
-                        }
-                    ]
-                }
-            ]
-        },
-        "searchTerms": "Air budget image."
-    },
-    {
-        "start": 1736656136,
-        "end": 1736656436,
-        "bounce": {
-            "isBounced": false,
-            "pathname": "/frontend/index.html"
-        },
-        "device": "Tablet",
-        "browser": "Safari",
-        "location": {
-            "latitude": 48.8566,
-            "longitude": 2.3522,
-            "country": "France"
-        },
-        "uniqueId": "80d8a76b-4c97-4a12-9ac3-02a6d37e11a9",
-        "pathname": "/settings",
-        "language": "es",
-        "referrer": "Direct",
-        "events": {
-            "loadCount": 9,
-            "visibilitychangeCount": 4,
-            "resizeCount": 8,
-            "focusCount": 0,
-            "clickCount": 6,
-            "blurCount": 10
-        },
-        "pageLoadTime": {
-            "loadStart": 1736656136151,
-            "loadEnd": 1736656137080
-        },
-        "productId": "TRK-TlxlcwGkl19t",
-        "pathCounts": {
-            "/settings": [
-                {
-                    "count": 5,
-                    "duration": [
-                        {
-                            "start": 1736656225573,
-                            "end": 1736656469688
-                        },
-                        {
-                            "start": 1736656217864,
-                            "end": 1736656509329
-                        },
-                        {
-                            "start": 1736656136226,
-                            "end": 1736656267114
-                        },
-                        {
-                            "start": 1736656182185,
-                            "end": 1736656245746
-                        },
-                        {
-                            "start": 1736656181727,
-                            "end": 1736656373922
-                        }
-                    ]
-                }
-            ],
-            "/profile": [
-                {
-                    "count": 5,
-                    "duration": [
-                        {
-                            "start": 1736656212068,
-                            "end": 1736656310719
-                        },
-                        {
-                            "start": 1736656177066,
-                            "end": 1736656265847
-                        },
-                        {
-                            "start": 1736656166347,
-                            "end": 1736656336652
-                        },
-                        {
-                            "start": 1736656196527,
-                            "end": 1736656349975
-                        },
-                        {
-                            "start": 1736656184704,
-                            "end": 1736656361314
-                        }
-                    ]
-                }
-            ]
-        },
-        "searchTerms": "Why as economic partner."
-    },
-    {
-        "start": 1736656136,
-        "end": 1736658656,
-        "bounce": {
-            "isBounced": true,
-            "pathname": "/frontend/index.html"
-        },
-        "device": "Tablet",
-        "browser": "Safari",
-        "location": {
-            "latitude": 35.8617,
-            "longitude": 104.1954,
-            "country": "China"
-        },
-        "uniqueId": "14ec54a1-24e9-462b-9378-3e9d812cba5a",
-        "pathname": "/profile",
-        "language": "es",
-        "referrer": "Social Media",
-        "events": {
-            "loadCount": 4,
-            "visibilitychangeCount": 6,
-            "resizeCount": 7,
-            "focusCount": 9,
-            "clickCount": 6,
-            "blurCount": 0
-        },
-        "pageLoadTime": {
-            "loadStart": 1736656136151,
-            "loadEnd": 1736656136992
-        },
-        "productId": "TRK-Ob2CJVFgaau7",
-        "pathCounts": {
-            "/dashboard": [
-                {
-                    "count": 4,
-                    "duration": [
-                        {
-                            "start": 1736656154527,
-                            "end": 1736656231461
-                        },
-                        {
-                            "start": 1736656219971,
-                            "end": 1736656263448
-                        },
-                        {
-                            "start": 1736656148285,
-                            "end": 1736656340962
-                        },
-                        {
-                            "start": 1736656164770,
-                            "end": 1736656262474
-                        }
-                    ]
-                }
-            ],
-            "/home": [
-                {
-                    "count": 3,
-                    "duration": [
-                        {
-                            "start": 1736656224994,
-                            "end": 1736656414429
-                        },
-                        {
-                            "start": 1736656158998,
-                            "end": 1736656305358
-                        },
-                        {
-                            "start": 1736656207040,
-                            "end": 1736656388165
-                        }
-                    ]
-                }
-            ],
-            "/about": [
-                {
-                    "count": 5,
-                    "duration": [
-                        {
-                            "start": 1736656221325,
-                            "end": 1736656362194
-                        },
-                        {
-                            "start": 1736656141964,
-                            "end": 1736656355229
-                        },
-                        {
-                            "start": 1736656209179,
-                            "end": 1736656396334
-                        },
-                        {
-                            "start": 1736656222606,
-                            "end": 1736656327670
-                        },
-                        {
-                            "start": 1736656218321,
-                            "end": 1736656400717
-                        }
-                    ]
-                }
-            ]
-        },
-        "searchTerms": "Step find generation face anything learn dog."
-    },
-    {
-        "start": 1736656136,
-        "end": 1736657936,
-        "bounce": {
-            "isBounced": true,
-            "pathname": "/frontend/index.html"
-        },
-        "device": "Tablet",
-        "browser": "Chrome",
-        "location": {
-            "latitude": -30.5595,
-            "longitude": 22.9375,
-            "country": "South Africa"
-        },
-        "uniqueId": "9ce1bf0b-8366-40e1-b77c-9493a981c91b",
-        "pathname": "/settings",
-        "language": "ja",
-        "referrer": "Google",
-        "events": {
-            "loadCount": 2,
-            "visibilitychangeCount": 5,
-            "resizeCount": 8,
-            "focusCount": 1,
-            "clickCount": 8,
-            "blurCount": 9
-        },
-        "pageLoadTime": {
-            "loadStart": 1736656136151,
-            "loadEnd": 1736656136722
-        },
-        "productId": "TRK-Ob2CJVFgaau7",
-        "pathCounts": {
-            "/profile": [
-                {
-                    "count": 2,
-                    "duration": [
-                        {
-                            "start": 1736656158509,
-                            "end": 1736656410902
-                        },
-                        {
-                            "start": 1736656194864,
-                            "end": 1736656273468
-                        }
-                    ]
-                }
-            ],
-            "/about": [
-                {
-                    "count": 1,
-                    "duration": [
-                        {
-                            "start": 1736656157222,
-                            "end": 1736656283967
-                        }
-                    ]
-                }
-            ],
-            "/home": [
-                {
-                    "count": 4,
-                    "duration": [
-                        {
-                            "start": 1736656230330,
-                            "end": 1736656419220
-                        },
-                        {
-                            "start": 1736656235606,
-                            "end": 1736656461948
-                        },
-                        {
-                            "start": 1736656150073,
-                            "end": 1736656258065
-                        },
-                        {
-                            "start": 1736656189091,
-                            "end": 1736656484463
-                        }
-                    ]
-                }
-            ]
-        },
-        "searchTerms": "Laugh pull heart region Mrs feel."
-    },
-    {
-        "start": 1736656136,
-        "end": 1736657036,
-        "bounce": {
-            "isBounced": true,
-            "pathname": "/frontend/index.html"
-        },
-        "device": "Laptop",
-        "browser": "Chrome",
-        "location": {
-            "latitude": -25.2744,
-            "longitude": 133.7751,
-            "country": "Australia"
-        },
         "uniqueId": "ca9d1f5f-925b-4a59-b362-4703a75ad77c",
-        "pathname": "/settings",
-        "language": "en",
+        "pathname": "/dashboard",
+        "language": "it",
         "referrer": "Google",
-        "events": {
-            "loadCount": 6,
-            "visibilitychangeCount": 7,
-            "resizeCount": 3,
-            "focusCount": 2,
-            "clickCount": 3,
-            "blurCount": 0
-        },
-        "pageLoadTime": {
-            "loadStart": 1736656136151,
-            "loadEnd": 1736656136205
-        },
-        "productId": "TRK-Ob2CJVFgaau7",
-        "pathCounts": {
-            "/about": [
-                {
-                    "count": 4,
-                    "duration": [
-                        {
-                            "start": 1736656175197,
-                            "end": 1736656273054
-                        },
-                        {
-                            "start": 1736656183346,
-                            "end": 1736656234271
-                        },
-                        {
-                            "start": 1736656157563,
-                            "end": 1736656313294
-                        },
-                        {
-                            "start": 1736656144915,
-                            "end": 1736656342457
-                        }
-                    ]
-                }
-            ],
-            "/dashboard": [
-                {
-                    "count": 5,
-                    "duration": [
-                        {
-                            "start": 1736656217123,
-                            "end": 1736656384844
-                        },
-                        {
-                            "start": 1736656229581,
-                            "end": 1736656351512
-                        },
-                        {
-                            "start": 1736656152256,
-                            "end": 1736656386774
-                        },
-                        {
-                            "start": 1736656143981,
-                            "end": 1736656419670
-                        },
-                        {
-                            "start": 1736656137425,
-                            "end": 1736656159939
-                        }
-                    ]
-                }
-            ],
-            "/settings": [
-                {
-                    "count": 2,
-                    "duration": [
-                        {
-                            "start": 1736656149598,
-                            "end": 1736656221537
-                        },
-                        {
-                            "start": 1736656149428,
-                            "end": 1736656250319
-                        }
-                    ]
-                }
-            ]
-        },
-        "searchTerms": "To week become artist."
-    },
-    {
-        "start": 1736656136,
-        "end": 1736656436,
-        "bounce": {
-            "isBounced": false,
-            "pathname": "/frontend/index.html"
-        },
-        "device": "Mobile",
-        "browser": "Chrome",
-        "location": {
-            "latitude": 20.5937,
-            "longitude": 78.9629,
-            "country": "India"
-        },
-        "uniqueId": "5bde6480-0ab0-43b2-8529-ae22b458f836",
-        "pathname": "/frontend/index.html",
-        "language": "ja",
-        "referrer": "Google",
-        "events": {
-            "loadCount": 7,
-            "visibilitychangeCount": 9,
-            "resizeCount": 10,
-            "focusCount": 4,
-            "clickCount": 10,
-            "blurCount": 6
-        },
-        "pageLoadTime": {
-            "loadStart": 1736656136151,
-            "loadEnd": 1736656136610
-        },
-        "productId": "TRK-TlxlcwGkl19t",
-        "pathCounts": {
-            "/home": [
-                {
-                    "count": 1,
-                    "duration": [
-                        {
-                            "start": 1736656158998,
-                            "end": 1736656361626
-                        }
-                    ]
-                }
-            ],
-            "/dashboard": [
-                {
-                    "count": 2,
-                    "duration": [
-                        {
-                            "start": 1736656211937,
-                            "end": 1736656449055
-                        },
-                        {
-                            "start": 1736656215770,
-                            "end": 1736656345015
-                        }
-                    ]
-                }
-            ],
-            "/about": [
-                {
-                    "count": 2,
-                    "duration": [
-                        {
-                            "start": 1736656159986,
-                            "end": 1736656196208
-                        },
-                        {
-                            "start": 1736656186003,
-                            "end": 1736656328210
-                        }
-                    ]
-                }
-            ]
-        },
-        "searchTerms": "Campaign seek expect fire."
-    },
-    {
-        "start": 1736656136,
-        "end": 1736659436,
-        "bounce": {
-            "isBounced": true,
-            "pathname": "/frontend/index.html"
-        },
-        "device": "Laptop",
-        "browser": "Mozilla",
-        "location": {
-            "latitude": 37.0902,
-            "longitude": -95.7129,
-            "country": "USA"
-        },
-        "uniqueId": "77f0712b-554f-4c5c-9898-14e7c77b26a0",
-        "pathname": "/frontend/index.html",
-        "language": "fr",
-        "referrer": "Email",
         "events": {
             "loadCount": 3,
-            "visibilitychangeCount": 2,
-            "resizeCount": 4,
-            "focusCount": 9,
-            "clickCount": 6,
-            "blurCount": 10
-        },
-        "pageLoadTime": {
-            "loadStart": 1736656136151,
-            "loadEnd": 1736656136732
-        },
-        "productId": "TRK-Ob2CJVFgaau7",
-        "pathCounts": {
-            "/home": [
-                {
-                    "count": 1,
-                    "duration": [
-                        {
-                            "start": 1736656204413,
-                            "end": 1736656223175
-                        }
-                    ]
-                }
-            ],
-            "/settings": [
-                {
-                    "count": 2,
-                    "duration": [
-                        {
-                            "start": 1736656185320,
-                            "end": 1736656335316
-                        },
-                        {
-                            "start": 1736656171737,
-                            "end": 1736656187756
-                        }
-                    ]
-                }
-            ],
-            "/dashboard": [
-                {
-                    "count": 2,
-                    "duration": [
-                        {
-                            "start": 1736656226730,
-                            "end": 1736656343348
-                        },
-                        {
-                            "start": 1736656204643,
-                            "end": 1736656311379
-                        }
-                    ]
-                }
-            ],
-            "/about": [
-                {
-                    "count": 3,
-                    "duration": [
-                        {
-                            "start": 1736656171586,
-                            "end": 1736656344414
-                        },
-                        {
-                            "start": 1736656187994,
-                            "end": 1736656444164
-                        },
-                        {
-                            "start": 1736656169522,
-                            "end": 1736656431937
-                        }
-                    ]
-                }
-            ]
-        },
-        "searchTerms": "Education fear high garden us way."
-    },
-    {
-        "start": 1736656136,
-        "end": 1736657216,
-        "bounce": {
-            "isBounced": true,
-            "pathname": "/frontend/index.html"
-        },
-        "device": "Mobile",
-        "browser": "Safari",
-        "location": {
-            "latitude": 37.0902,
-            "longitude": -95.7129,
-            "country": "USA"
-        },
-        "uniqueId": "80d8a76b-4c97-4a12-9ac3-02a6d37e11a9",
-        "pathname": "/profile",
-        "language": "it",
-        "referrer": "Google",
-        "events": {
-            "loadCount": 4,
-            "visibilitychangeCount": 2,
-            "resizeCount": 4,
-            "focusCount": 3,
-            "clickCount": 6,
-            "blurCount": 5
-        },
-        "pageLoadTime": {
-            "loadStart": 1736656136151,
-            "loadEnd": 1736656136646
-        },
-        "productId": "TRK-TlxlcwGkl19t",
-        "pathCounts": {
-            "/profile": [
-                {
-                    "count": 4,
-                    "duration": [
-                        {
-                            "start": 1736656189108,
-                            "end": 1736656321304
-                        },
-                        {
-                            "start": 1736656230522,
-                            "end": 1736656390330
-                        },
-                        {
-                            "start": 1736656159656,
-                            "end": 1736656184711
-                        },
-                        {
-                            "start": 1736656203250,
-                            "end": 1736656339091
-                        }
-                    ]
-                }
-            ],
-            "/dashboard": [
-                {
-                    "count": 3,
-                    "duration": [
-                        {
-                            "start": 1736656190317,
-                            "end": 1736656408708
-                        },
-                        {
-                            "start": 1736656138246,
-                            "end": 1736656316048
-                        },
-                        {
-                            "start": 1736656226067,
-                            "end": 1736656517140
-                        }
-                    ]
-                }
-            ],
-            "/about": [
-                {
-                    "count": 2,
-                    "duration": [
-                        {
-                            "start": 1736656144768,
-                            "end": 1736656416849
-                        },
-                        {
-                            "start": 1736656148926,
-                            "end": 1736656253511
-                        }
-                    ]
-                }
-            ],
-            "/home": [
-                {
-                    "count": 2,
-                    "duration": [
-                        {
-                            "start": 1736656204377,
-                            "end": 1736656491334
-                        },
-                        {
-                            "start": 1736656217545,
-                            "end": 1736656242802
-                        }
-                    ]
-                }
-            ]
-        },
-        "searchTerms": "Mind way southern ago never baby."
-    },
-    {
-        "start": 1736656136,
-        "end": 1736657996,
-        "bounce": {
-            "isBounced": false,
-            "pathname": "/frontend/index.html"
-        },
-        "device": "Laptop",
-        "browser": "Mozilla",
-        "location": {
-            "latitude": 51.5099,
-            "longitude": -0.1181,
-            "country": "UK"
-        },
-        "uniqueId": "aa76de66-83a4-4c21-92f5-cfe20525387a",
-        "pathname": "/home",
-        "language": "it",
-        "referrer": "Direct",
-        "events": {
-            "loadCount": 2,
             "visibilitychangeCount": 5,
-            "resizeCount": 3,
-            "focusCount": 8,
-            "clickCount": 0,
+            "resizeCount": 8,
+            "focusCount": 2,
+            "clickCount": 6,
             "blurCount": 2
         },
         "pageLoadTime": {
-            "loadStart": 1736656136151,
-            "loadEnd": 1736656136443
+            "loadStart": 1736700507000,
+            "loadEnd": 1736700507320
         },
-        "productId": "TRK-89olAsKyNOG7",
+        "productId": "TRK-Ob2CJVFgaau7",
         "pathCounts": {
-            "/profile": [
-                {
-                    "count": 4,
-                    "duration": [
-                        {
-                            "start": 1736656149230,
-                            "end": 1736656165386
-                        },
-                        {
-                            "start": 1736656152573,
-                            "end": 1736656410879
-                        },
-                        {
-                            "start": 1736656150103,
-                            "end": 1736656201000
-                        },
-                        {
-                            "start": 1736656152266,
-                            "end": 1736656365956
-                        }
-                    ]
-                }
-            ],
-            "/about": [
+            "/home": [
                 {
                     "count": 2,
                     "duration": [
                         {
-                            "start": 1736656231456,
-                            "end": 1736656392030
+                            "start": 1736700550964,
+                            "end": 1736700657851
                         },
                         {
-                            "start": 1736656150513,
-                            "end": 1736656340294
-                        }
-                    ]
-                }
-            ]
-        },
-        "searchTerms": "Color particular get claim."
-    },
-    {
-        "start": 1736656136,
-        "end": 1736659016,
-        "bounce": {
-            "isBounced": true,
-            "pathname": "/frontend/index.html"
-        },
-        "device": "Mobile",
-        "browser": "Mozilla",
-        "location": {
-            "latitude": 56.1304,
-            "longitude": -106.3468,
-            "country": "Canada"
-        },
-        "uniqueId": "9b47b488-09f3-4d00-a56c-8c970bdfab8e",
-        "pathname": "/dashboard",
-        "language": "fr",
-        "referrer": "Google",
-        "events": {
-            "loadCount": 9,
-            "visibilitychangeCount": 5,
-            "resizeCount": 8,
-            "focusCount": 4,
-            "clickCount": 2,
-            "blurCount": 4
-        },
-        "pageLoadTime": {
-            "loadStart": 1736656136151,
-            "loadEnd": 1736656136861
-        },
-        "productId": "TRK-TlxlcwGkl19t",
-        "pathCounts": {
-            "/home": [
-                {
-                    "count": 3,
-                    "duration": [
-                        {
-                            "start": 1736656140462,
-                            "end": 1736656219136
-                        },
-                        {
-                            "start": 1736656167715,
-                            "end": 1736656387741
-                        },
-                        {
-                            "start": 1736656190573,
-                            "end": 1736656336151
+                            "start": 1736700516676,
+                            "end": 1736700791948
                         }
                     ]
                 }
             ],
             "/settings": [
                 {
-                    "count": 5,
+                    "count": 4,
                     "duration": [
                         {
-                            "start": 1736656235480,
-                            "end": 1736656480256
+                            "start": 1736700561469,
+                            "end": 1736700844904
                         },
                         {
-                            "start": 1736656164520,
-                            "end": 1736656210579
+                            "start": 1736700575209,
+                            "end": 1736700727140
                         },
                         {
-                            "start": 1736656204741,
-                            "end": 1736656338899
+                            "start": 1736700551448,
+                            "end": 1736700716422
                         },
                         {
-                            "start": 1736656226655,
-                            "end": 1736656307372
+                            "start": 1736700551512,
+                            "end": 1736700690629
+                        }
+                    ]
+                }
+            ],
+            "/profile": [
+                {
+                    "count": 2,
+                    "duration": [
+                        {
+                            "start": 1736700525331,
+                            "end": 1736700610744
                         },
                         {
-                            "start": 1736656218259,
-                            "end": 1736656312473
+                            "start": 1736700606240,
+                            "end": 1736700704058
+                        }
+                    ]
+                }
+            ],
+            "/dashboard": [
+                {
+                    "count": 4,
+                    "duration": [
+                        {
+                            "start": 1736700568613,
+                            "end": 1736700710503
+                        },
+                        {
+                            "start": 1736700526606,
+                            "end": 1736700535270
+                        },
+                        {
+                            "start": 1736700569056,
+                            "end": 1736700643858
+                        },
+                        {
+                            "start": 1736700571665,
+                            "end": 1736700864102
                         }
                     ]
                 }
             ]
         },
-        "searchTerms": "These boy time newspaper result."
+        "searchTerms": "Once rise rate leg finish few."
     }
 ]
