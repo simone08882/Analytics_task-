@@ -41,13 +41,19 @@ locations = [
 def generate_path_counts(start_time):
     paths = ["/home", "/about", "/dashboard", "/profile", "/settings"]
     path_counts = {}
-    
-    for _ in range(random.randint(3, 6)):
+
+    for _ in range(random.randint(3, 6)):  
         path = random.choice(paths)
-        count = random.randint(1, 5)
-        durations = [{"start": start_time, "end": start_time} for _ in range(count)]
-        path_counts[path] = {"count": count, "duration": durations}
-    
+        count = random.randint(1, 5)  
+        durations = []
+
+        for _ in range(count):
+            start = start_time + random.randint(0, 100000)  
+            end = start + random.randint(1000, 300000)  
+            durations.append({"start": start, "end": end})
+
+        path_counts[path] = [{"count": count, "duration": durations}]
+
     return path_counts
 
 def generate_session(date):
